@@ -1,0 +1,19 @@
+{
+"Changes": [
+  {
+      "LogName": "TSC: Load Spouse Rooms",
+      "Action": "EditData",
+      "Target": "Data/SpouseRooms",
+      "Entries": {
+          "Tabitha": "TSCSpouseRooms/0",
+          "Theo": "TSCSpouseRooms/1",
+      }
+  },
+  {
+      "LogName": "TSC: Load Spouse Room Map",
+      "Action": "Load",
+      "Target": "Maps/TSCSpouseRooms",
+      "FromFile": "Assets/Maps/SpouseRooms.tmx"
+  },
+]
+}

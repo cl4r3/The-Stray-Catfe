@@ -1,0 +1,75 @@
+{
+"Changes": [
+  {
+    "LogName": "TSC: Egg Festival Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.spring13}}",
+      "Theo": "{{i18n:Theo.Festival.spring13}}",
+    }
+  },
+  {
+    "LogName": "TSC: Flower Festival Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.spring24}}",
+      "Theo": "{{i18n:Theo.Festival.spring24}}",
+    }
+  },
+  {
+    "LogName": "TSC: Luau Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.summer11}}",
+      "Theo": "{{i18n:Theo.Festival.summer11}}",
+    }
+  },
+  {
+    "LogName": "TSC: Moonlight Jellies Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.summer28}}",
+      "Theo": "{{i18n:Theo.Festival.summer28}}",
+    }
+  },
+  {
+    "LogName": "TSC: Fair Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.fall16}}",
+      "Theo": "{{i18n:Theo.Festival.fall16}}",
+    }
+  },
+  {
+    "LogName": "TSC: Spirits Eve Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.fall27}}",
+      "Theo": "{{i18n:Theo.Festival.fall27}}",
+    }
+  },
+  {
+    "LogName": "TSC: Ice Festival Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.winter8}}",
+    }
+  },
+  {
+    "LogName": "TSC: Winter Star Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Festival.winter25}}",
+      "Theo": "{{i18n:Theo.Festival.winter25}}",
+    }
+  },
+]
+}

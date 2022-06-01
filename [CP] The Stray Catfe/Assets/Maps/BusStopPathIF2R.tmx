@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="7">
+ <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="151">
+   <animation>
+    <frame tileid="151" duration="1000"/>
+    <frame tileid="152" duration="1000"/>
+    <frame tileid="152" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths.png" width="64" height="128"/>
+ </tileset>
+ <layer id="1" name="Back" width="7" height="6">
+  <data encoding="csv">
+231,253,228,227,179,230,231,
+152,251,253,208,229,326,327,
+328,201,203,227,229,351,355,
+383,251,253,228,229,351,380,
+382,353,226,227,229,351,380,
+382,353,226,207,229,351,380
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="7" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+386,362,0,0,0,362,384,
+0,387,0,0,0,412,0,
+0,412,0,0,0,387,0,
+0,387,0,0,0,387,127
+</data>
+ </layer>
+ <layer id="3" name="Front" width="7" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+361,0,0,0,0,0,359,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="7" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="AlwaysFront" width="7" height="6">
+  <data encoding="csv">
+0,0,0,0,0,1,2,
+0,0,0,0,0,26,27,
+6,0,22,0,0,51,52,
+31,0,0,0,0,76,77,
+56,0,0,0,0,0,102,
+81,0,0,0,0,126,1
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="8" name="Front"/>
+ <objectgroup id="9" name="Paths"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

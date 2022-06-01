@@ -1,0 +1,35 @@
+{
+"Changes": [
+  {
+    "Action": "Load",
+    "Target": "Strings/schedules/Tabitha",
+    "FromFile": "Data/LoadData/EmptyJson.json"
+  },
+  {
+    "Action": "Load",
+    "Target": "Strings/schedules/Theo",
+    "FromFile": "Data/LoadData/EmptyJson.json"
+  },
+	{
+   "LogName": "TSC: Tabitha Schedule Dialogue",
+   "Action": "EditData",
+   "Target": "Strings/schedules/Tabitha",
+   "Entries": {
+     "spring.000": "{{i18n:Tabitha.Schedule.spring.000}}",
+     "rain.000": "{{i18n:Tabitha.Schedule.rain.000}}"
+    }
+  },
+  {
+   "LogName": "TSC: Theo Schedule Dialogue",
+   "Action": "EditData",
+   "Target": "Strings/schedules/Theo",
+   "Entries": {
+     "Mon.000": "{{i18n:Theo.Schedule.Mon.000}}",
+     "spring.000": "{{i18n:Theo.Schedule.spring.000}}",
+     "winter_Mon.000": "{{i18n:Theo.Schedule.winter_Mon.000}}",
+     "winter_Mon.001": "{{i18n:Theo.Schedule.winter_Mon.001}}",
+     "rain.000": "{{i18n:Theo.Schedule.rain.000}}",
+    }
+  }
+]
+}

@@ -1,0 +1,76 @@
+{
+"Changes": [
+  {
+		"LogName": "TSC: ArchaeologyHouse Events",
+		"Action": "EditData",
+		"Target": "Data/Events/ArchaeologyHouse",
+		"Entries": {
+      // Tabitha 8 heart event
+      "244/f Tabitha 2000/e 236":"none/18 10/farmer -100 -100 0 Tabitha 11 9 0/warp farmer 3 14 0/playSound doorClose/move farmer 0 -2 0/move farmer 3 0 1 true/emote Tabitha 56/move farmer 0 2 2/move farmer 5 0 0/move farmer 0 -2 0 true/emote farmer 32/emote Tabitha 16/faceDirection Tabitha 2/speak Tabitha \"{{i18n:Tabitha.Event8.0}}\"/pause 600/question fork2 \"{{i18n:Tabitha.Event8.1}}\"/pause 400/fork helpTabitha/speak Tabitha \"{{i18n:Tabitha.Event8.2}}\"/end",
+      "helpTabitha":"speak Tabitha \"{{i18n:Tabitha.Event8.3}}\"/emote Tabitha 20/move Tabitha 5 0 2 true/move farmer 5 0 2 true/move Tabitha 0 1 1/move farmer 0 1 1/move farmer 3 0 1 true/emote Tabitha 60/move farmer 0 -2 3/speak Tabitha \"{{i18n:Tabitha.Event8.4}}\"/pause 200/emote farmer 32/pause 500/emote Tabitha 20/end dialogue Tabitha \"{{i18n:Tabitha.Event8.5}}\""
+    }
+  },
+  {
+    "LogName": "TSC: BusStop Events",
+    "Action": "EditData",
+    "Target": "Data/Events/BusStop",
+    "Entries": {
+      // Tabitha 10 heart event
+      "277/f Tabitha 2500/e 244":"none/14 21/farmer -100 -100 0 Tabitha 20 22 3 Theo 20 23 3/move Tabitha -5 0 2 true/move Theo -4 0 3 true/move Tabitha 0 1 1/pause 200/speak Tabitha \"{{i18n:Tabitha.Event10.0}}\"/warp farmer 1 23/faceDirection farmer 1/pause 200/speak Theo \"{{i18n:Tabitha.Event10.1}}\"/pause 200/emote Tabitha 16/pause 200/speak Tabitha \"{{i18n:Tabitha.Event10.2}}\"/pause 200/move farmer 10 0 1 true/emote Tabitha 12/emote Theo 16/pause 500/speak Theo \"{{i18n:Tabitha.Event10.3}}\"/pause 200/emote Theo 32/move Theo 20 0 1 true/warp Theo -100 -100/faceDirection Tabitha 3/pause 200/speak Tabitha \"{{i18n:Tabitha.Event10.4}}\"/pause 400/move farmer 3 0 1 true/emote Tabitha 28/pause 500/question fork0 \"{{i18n:Tabitha.Event10.5}}\"/pause 400/fork romanceTabitha/faceDirection Tabitha 1/pause 500/speak Tabitha \"{{i18n:Tabitha.Event10.6}}\"/pause 400/faceDirection Tabitha 3/pause 300/speak Tabitha \"{{i18n:Tabitha.Event10.7}}\"/pause 500/question fork1 \"{{i18n:Tabitha.Event10.8}}\"/pause 500/fork romanceTabitha/emote Tabitha 40/pause 300/speak Tabitha \"{{i18n:Tabitha.Event10.9}}\"/pause 500/globalFade/viewport -1000 -1000/end",
+      "romanceTabitha":"playMusic musicboxsong/speak Tabitha \"{{i18n:Tabitha.Event10.10}}\"/pause 400/emote farmer 20/pause 500/animate Tabitha true false 3000 33/showFrame 101/pause 3000/showFrame Tabitha 12/showFrame 0/faceDirection farmer 1/pause 500/speak Tabitha \"{{i18n:Tabitha.Event10.11}}\"/pause 400/emote Tabitha 60/globalFade/viewport -1000 -1000/end dialogue Tabitha \"{{i18n:Tabitha.Event10.12}}\""
+    }
+  },
+  {
+    "LogName": "TSC: Farm Events",
+    "Action": "EditData",
+    "Target": "Data/Events/Farm",
+    "Entries": {
+      // Theo 2 heart event
+      "742/f Theo 500/t 600 800/w sunny/z winter":"none/64 15/farmer 64 16 2 Theo 64 19 2/pause 200/emote Theo 16/pause 800/emote farmer 8/pause 500/faceDirection Theo 3/pause 500/faceDirection Theo 1/pause 500/faceDirection Theo 0/pause 800/emote Theo 28/pause 500/speak Theo \"{{i18n:Theo.Event2.0}}\"/pause 500/speak Theo \"$q 551 null#{{i18n:Theo.Event2.1}}#$r 551 25 event_farm1#{{i18n:Theo.Event2.2}}#$r 551 -15 event_farm2#{{i18n:Theo.Event2.3}}\"/pause 500/emote Theo 40/pause 500/speak Theo \"{{i18n:Theo.Event2.4}}\"/pause 300/globalFade/viewport -1000 -1000/end"
+    }
+  },
+  {
+    "LogName": "TSC: Forest Events",
+    "Action": "EditData",
+    "Target": "Data/Events/Forest",
+    "Entries": {
+      // Tabitha 6 heart event
+      "236/f Tabitha 1500/t 800 1800" : "desolate/39 10/farmer 41 11 3 Tabitha 39 11 2/pause 500/emote Tabitha 12/pause 500/faceDirection Tabitha 1/speak Tabitha \"{{i18n:Tabitha.Event6.0}}\"/pause 500/emote Tabitha 28/pause 500/faceDirection Tabitha 1/pause 200/speak Tabitha \"$q 603 null#{{i18n:Tabitha.Event6.1}}#$r 603 -250 tree_event1#{{i18n:Tabitha.Event6.2}}#$r 603 20 tree_event2#{{i18n:Tabitha.Event6.3}}#$r 603 0 tree_event2#{{i18n:Tabitha.Event6.4}}\"/faceDirection Tabitha 2/pause 300/speak Tabitha \"{{i18n:Tabitha.Event6.5}}\"/end dialogue Tabitha \"{{i18n:Tabitha.Event6.6}}\"",
+      // Theo 10 heart event
+      "777/f Theo 2500/w sunny/z winter":"none/48 79/farmer 41 78 1 Theo 48 79 2/pause 500/move farmer 5 0 2 true/emote Theo 16/faceDirection Theo 3/move farmer 0 1 2/move farmer 1 0 1 true/emote Theo 32/pause 200/speak Theo \"{{i18n:Theo.Event10.0}}\"/pause 500/faceDirection Theo 2/pause 100/faceDirection farmer 2/pause 3000/emote Theo 40/pause 1000/speak Theo \"{{i18n:Theo.Event10.1}}\"/pause 300/faceDirection Theo 1/pause 100/emote Theo 28/pause 400/speak Theo \"{{i18n:Theo.Event10.2}}\"/pause 400/faceDirection farmer 1/faceDirection Theo 3/pause 300/speak Theo \"{{i18n:Theo.Event10.3}}\"/pause 600/question fork1 \"{{i18n:Theo.Event10.4}}\"/pause 400/fork rejectTheo/playMusic musicboxsong/emote Theo 20/pause 500/speak Theo \"{{i18n:Theo.Event10.5}}\"/pause 500/showFrame Theo 28/showFrame 101/pause 5000/globalFade/viewport -1000 -1000/end dialogue Theo \"{{i18n:Theo.Event10.6}}\"",
+      "rejectTheo":"friendship Theo -1250/speak Theo \"{{i18n:Theo.Event10.7}}\"/pause 400/emote Theo 12/pause 400/speed Theo 5/move Theo 8 0 1 true/globalFade/viewport -1000 -1000/end dialogue Theo \"{{i18n:Theo.Event10.8}}\""
+    }
+  },
+  {
+    "LogName": "TSC: RailroadEvents",
+    "Action": "EditData",
+    "Target": "Data/Events/Railroad",
+    "Entries": {
+      // Theo 4 heart event
+      "722/f Theo 1000/z winter":"sadpiano/41 40/farmer 29 45 0 Theo 39 41 2/pause 100/move farmer 0 -5 1 true/emote Theo 40/move farmer 8 0 2/move farmer 0 1 1/pause 200/emote farmer 8/pause 200/speak Theo \"{{i18n:Theo.Event4.0}}\"/pause 300/move farmer 1 0 2/pause 500/speak Theo \"{{i18n:Theo.Event4.1}}\"/pause 600/question null \"{{i18n:Theo.Event4.2}}\"/pause 200/speak Theo \"{{i18n:Theo.Event4.3}}\"/pause 400/move Theo 2 0 1/move Theo 0 -1 1/faceDirection farmer 1/move Theo 2 0 2/move Theo 0 1 1/move Theo 3 0 1 true/globalFade/viewport -1000 -1000/end"
+    }
+  },
+  {
+    "LogName": "TSC: ShopEvents",
+    "Action": "EditData",
+    "Target": "Data/Events/SeedShop",
+    "Entries": {
+      // Tabitha 4 heart event
+      "227/f Tabitha 1000/d Wednesday /t 900 1700":"none/8 22/farmer -100 -100 0 Tabitha 12 25 3 Pierre 4 17 2/pause 400/emote Tabitha 40/pause 200/speak Tabitha \"{{i18n:Tabitha.Event4.0}}\"/move Tabitha 0 -2 0/move Tabitha -2 0 0/pause 500/emote Tabitha 8/pause 300/warp farmer 6 29/playSound doorClose/pause 300/move farmer 0 -2 0 true/faceDirection Tabitha 2 true/pause 500/speak Tabitha \"{{i18n:Tabitha.Event4.1}}\"/move farmer 0 -4 1/faceDirection Tabitha 3/move farmer 3 0 1/emote farmer 8/pause 200/pause 100/speak Tabitha \"{{i18n:Tabitha.Event4.2}}\"/pause 200/emote farmer 56/pause 200/faceDirection Tabitha 0 true/move farmer 0 -3 1/move farmer 4 0 0/pause 500/playSound shiny/move farmer -4 0 2/move farmer 0 3 1/faceDirection Tabitha 3/playSound money/emote Tabitha 20/pause 200/speak Tabitha \"{{i18n:Tabitha.Event4.3}}\"/pause 400/emote Tabitha 16/pause 100/speak Tabitha \"{{i18n:Tabitha.Event4.4}}\"/speak Tabitha \"$q 890 null#{{i18n:Tabitha.Event4.5}}#$r 890 50 shop_event1#{{i18n:Tabitha.Event4.6}}#$r 890 30 shop_event1#{{i18n:Tabitha.Event4.7}}#$r 890 0 shop_event2#{{i18n:Tabitha.Event4.8}}#$r 890 -15 shop_event3#{{i18n:Tabitha.Event4.9}}\"/pause 200/faceDirection Tabitha 0/speak Tabitha \"{{i18n:Tabitha.Event4.10}}\"/end dialogue Tabitha \"{{i18n:Tabitha.Event4.11}}\""
+    }
+  },
+  {
+    "LogName": "TSC: TownEvents",
+    "Action": "EditData",
+    "Target":"Data/Events/Town",
+    "Entries": {
+      // Tabitha 2 heart event
+      "222/f Tabitha 500/t 1600 2200": "jaunty/43 73/farmer -100 -100 0 Tabitha 45 74 0/pause 300/move Tabitha 0 -2 0/emote Tabitha 40/pause 500/emote Tabitha 12/pause 500/move Tabitha -4 0 3/move Tabitha 3 0 1/move Tabitha -3 0 3 true/warp farmer 32 72 1/faceDirection farmer 1 true/pause 200/emote Tabitha 16/pause 500/speak Tabitha \"{{i18n:Tabitha.Event2.0}}\"/pause 500/move farmer 8 0 1/pause 800/speak Tabitha \"{{i18n:Tabitha.Event2.1}}\"/emote Tabitha 28/pause 500/speak Tabitha \"$q 412 null#{{i18n:Tabitha.Event2.2}} #$r 412 25 event_saloon1#{{i18n:Tabitha.Event2.3}}#$r 412 -10 event_saloon2#{{i18n:Tabitha.Event2.4}}\"/pause 300/speak Tabitha \"{{i18n:Tabitha.Event2.5}}\"/move Tabitha 4 0 1/move Tabitha 0 -1 0/playSound doorClose/warp Tabitha -100 -100/end",
+      // Theo 6 heart event
+      "772/f Theo 1500/z winter":"desolate/63 19/farmer 57 23 1 Tabitha 63 16 2 Theo 62 16 2/pause 500/speak Theo \"{{i18n:Theo.Event6.0}}\"/pause 200/faceDirection Tabitha 3/pause 100/emote Tabitha 8/pause 300/speak Tabitha \"{{i18n:Theo.Event6.1}}\"/pause 400/speak Theo \"{{i18n:Theo.Event6.2}}\"/pause 400/emote Tabitha 12/pause 400/faceDirection Tabitha 2/pause 300/speak Tabitha \"{{i18n:Theo.Event6.3}}\"/pause 200/faceDirection Theo 1/pause 300/emote Theo 12/pause 400/speed Tabitha 4/move Tabitha 0 20 1 true/pause 200/faceDirection Theo 2/pause 100/move Theo 0 1 2/pause 300/emote Theo 16/faceDirection Theo 3/pause 500/speak Theo \"{{i18n:Theo.Event6.4}}\"/pause 300/faceDirection Theo 2/pause 200/move Theo 0 6 2/globalFade/viewport -1000 -1000/end",
+      // Theo 8 heart event
+      "727/f Theo 2000/w sunny/z winter":"none/19 62/farmer 17 55 2 Theo 18 59 2/pause 1000/move farmer 0 4 1 true/emote Theo 56/pause 400/faceDirection Theo 3/pause 200/speak Theo \"{{i18n:Theo.Event8.0}}\"/pause 300/faceDirection farmer 2/faceDirection Theo 2/pause 100/emote farmer 56/emote Theo 56/pause 500/speak Theo \"{{i18n:Theo.Event8.1}}\"/pause 1000/speak Theo \"$q 645 null#{{i18n:Theo.Event8.2}}#$r 645 50 event_garden1#{{i18n:Theo.Event8.3}}#$r 645 20 event_garden2#{{i18n:Theo.Event8.4}}#$r 645 10 event_garden3#{{i18n:Theo.Event8.5}}\"/pause 400/speak Theo \"{{i18n:Theo.Event8.6}}\"/pause 1000/globalFade/viewport -1000 -1000/end"
+    }
+  }
+]
+}

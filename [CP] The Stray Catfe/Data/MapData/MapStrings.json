@@ -1,0 +1,21 @@
+{
+"Changes": [
+  {
+    "Action":"EditData",
+    "Target":"Strings/StringsFromMaps",
+    "Entries":{
+      "BusStop.1": "{{i18n:MapStrings.BusStop.1}}",
+      "CafeOutdoors.1": "{{i18n:MapStrings.CafeOutdoors.1}}",
+      "CafeIndoors.1": "{{i18n:MapStrings.CafeIndoors.1}}",
+      "CafeIndoors.2": "{{i18n:MapStrings.CafeIndoors.2}}",
+      "CafeIndoors.3": "{{i18n:MapStrings.CafeIndoors.3}}",
+      "CafeIndoors.4": "{{i18n:MapStrings.CafeIndoors.4}}",
+      "CafeIndoors.5": "{{i18n:MapStrings.CafeIndoors.5}}",
+      "CafeIndoors.6": "{{i18n:MapStrings.CafeIndoors.6}}",
+      "CafeIndoors.7": "{{i18n:MapStrings.CafeIndoors.7}}",
+      "CafeIndoors.8": "{{i18n:MapStrings.CafeIndoors.8}}",
+      "CafeIndoors.9": "{{i18n:MapStrings.CafeIndoors.9}}",
+    }
+  }
+]
+}

@@ -1,0 +1,71 @@
+{
+"Changes": [
+  {
+		"LogName": "TSC: Bus Stop Path",
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"FromFile": "Assets/Maps/BusStopPath.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 15, "Height": 6 },
+		"ToArea": { "X": 9, "Y": 24, "Width": 15, "Height": 6 },
+		"PatchMode": "Replace",
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false }
+	},
+  {
+    "LogName": "TSC: Bus Stop Warps",
+    "Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "AddWarps": [
+      "15 30 Custom_StrayCatfe_CafeOutdoors 17 0",
+      "16 30 Custom_StrayCatfe_CafeOutdoors 17 0",
+      "17 30 Custom_StrayCatfe_CafeOutdoors 18 0",
+    ],
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false }
+  },
+  {
+    "LogName": "TSC: Cafe Warps",
+    "Action": "EditMap",
+    "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
+    "AddWarps": [
+      "16 -1 BusStop 15 28",
+      "17 -1 BusStop 16 28",
+      "18 -1 BusStop 16 28",
+      "19 -1 BusStop 17 28"
+    ],
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false }
+  },
+
+  {
+		"LogName": "TSC: Bus Stop Path for IF2R",
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"FromFile": "Assets/Maps/BusStopPathIF2R.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
+		"ToArea": { "X": 18, "Y": 24, "Width": 7, "Height": 6 },
+		"PatchMode": "Replace",
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": true }
+	},
+  {
+    "LogName": "TSC: Bus Stop Warps for IF2R",
+    "Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "AddWarps": [
+      "20 30 Custom_StrayCatfe_CafeOutdoors 17 0",
+      "21 30 Custom_StrayCatfe_CafeOutdoors 17 0",
+      "22 30 Custom_StrayCatfe_CafeOutdoors 18 0",
+    ],
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": true }
+  },
+  {
+    "LogName": "TSC: Cafe Warps for IF2R",
+    "Action": "EditMap",
+    "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
+    "AddWarps": [
+      "16 -1 BusStop 20 28",
+      "17 -1 BusStop 21 28",
+      "18 -1 BusStop 21 28",
+      "19 -1 BusStop 22 28"
+    ],
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": true }
+  },
+]
+}

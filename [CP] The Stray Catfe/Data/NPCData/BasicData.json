@@ -1,0 +1,66 @@
+{
+"Changes": [
+  {
+    "LogName": "TSC: Dispositions",
+    "Action": "EditData",
+    "Target": "Data/NPCDispositions",
+    "Entries": {
+      "Tabitha": "teen/neutral/outgoing/positive/female/datable/null/Town/fall 8/{{i18n:Tabitha.Family}}/Custom_StrayCatfe_CafeIndoors 14 13/{{i18n:Tabitha.Name}}",
+      "Theo": "teen/neutral/shy/negative/male/datable/null/Town/fall 8/{{i18n:Theo.Family}}/Custom_StrayCatfe_CafeIndoors 7 6/{{i18n:Theo.Name}}",
+    },
+  },
+  {
+    "LogName": "TSC: Gifts",
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Gift.Love}}/220 221 341 608 731 724 614/{{i18n:Tabitha.Gift.Like}}/245 246 376 815 417/{{i18n:Tabitha.Gift.Dislike}}/167 348 459 257 205 404 281/{{i18n:Tabitha.Gift.Hate}}/303 304 346 456 457 729 422/{{i18n:Tabitha.Gift.Neutral}}/203/ ",
+      "Theo": "{{i18n:Theo.Gift.Love}}/605 235 425 595 274/{{i18n:Theo.Gift.Like}}/-74 430 376/{{i18n:Theo.Gift.Dislike}}/306 307 733/{{i18n:Theo.Gift.Hate}}/729 732 717/{{i18n:Theo.Gift.Neutral}}/-2 -19 420/",
+    }
+  },
+  {
+    "LogName": "TSC: Gifts",
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "Entries": {
+      "Tabitha": "{{i18n:Tabitha.Gift.Love}}/220 221 341 608 731 724 614/{{i18n:Tabitha.Gift.Like}}/245 246 376 815 417/{{i18n:Tabitha.Gift.Dislike}}/167 348 459 257 205 404 281/{{i18n:Tabitha.Gift.Hate}}/303 304 346 456 457 729 422/{{i18n:Tabitha.Gift.Neutral}}/203/ ",
+      "Theo": "{{i18n:Theo.Gift.Love}}/605 235 425 595 274/{{i18n:Theo.Gift.Like}}/-74 430 376/{{i18n:Theo.Gift.Dislike}}/306 307 733/{{i18n:Theo.Gift.Hate}}/729 732 717/{{i18n:Theo.Gift.Neutral}}/-2 -19 420/",
+    }
+  },
+  {
+    "LogName": "TSC: Engagement Dialogue",
+    "Action": "EditData",
+    "Target": "Data/EngagementDialogue",
+    "Entries": {
+      "Tabitha0": "{{i18n:Tabitha.Engaged.0}}",
+      "Tabitha1": "{{i18n:Tabitha.Engaged.1}}",
+      "Theo0": "{{i18n:Theo.Engaged.0}}",
+      "Theo1": "{{i18n:Theo.Engaged.1}}",
+    }
+  },
+  {
+    "LogName": "TSC: Tabitha Marriage Vows",
+    "Action": "EditData",
+    "Target": "strings/StringsFromCSFiles",
+    "Entries": {
+      "Utility.cs.5367": "{{i18n:Tabitha.MarriageVows.MaleFarmer}}",
+      "Utility.cs.5369": "{{i18n:Tabitha.MarriageVows.FemaleFarmer}}",
+      "Utility.cs.5371": "{{i18n:Tabitha.MarriageVows.HusbandWife}}",
+      "Utility.cs.5377": "{{i18n:Tabitha.MarriageVows.WifeWife}}",
+    },
+    "When": { "Relationship:Tabitha": "Engaged" }
+  },
+  {
+    "LogName": "TSC: Theo Marriage Vows",
+    "Action": "EditData",
+    "Target": "strings/StringsFromCSFiles",
+    "Entries": {
+      "Utility.cs.5367": "{{i18n:Theo.MarriageVows.MaleFarmer}}",
+      "Utility.cs.5369": "{{i18n:Theo.MarriageVows.FemaleFarmer}}",
+      "Utility.cs.5373": "{{i18n:Tabitha.MarriageVows.WifeHusband}}",
+      "Utility.cs.5375": "{{i18n:Tabitha.MarriageVows.HusbandWife}}",
+    },
+    "When": { "Relationship:Theo": "Engaged" }
+  },
+]
+}

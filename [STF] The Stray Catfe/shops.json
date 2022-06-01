@@ -1,0 +1,173 @@
+{
+	"Shops": [
+	{
+	  "ShopName": "StrayCatfe",
+	  "PortraitPath": "assets/Tabitha.png",
+	  "Quote": "Hiya, welcome! What can I get you?",
+	  "ItemStocks": [
+		{
+			//Coffee
+			"ItemType": "Object",
+			"StockPrice": 215,
+			"ItemIDs": [
+				395,
+			],
+		},
+		{
+			//Triple Shot Espresso
+			"ItemType": "Object",
+			"StockPrice": 800,
+			"ItemIDs": [
+				253,
+			],
+			"Stock": 10,
+		},
+		{
+			//Green Tea
+			"ItemType": "Object",
+			"StockPrice": 180,
+			"ItemNames": [
+				"Green Tea",
+			],
+		},
+		{
+			//Complete Breakfast
+			"ItemType": "Object",
+			"StockPrice": 600,
+			"ItemIDs": [
+				201,
+			],
+			"Stock": 5,
+		},
+		{
+			//Omelet
+			"ItemType": "Object",
+			"StockPrice": 200,
+			"ItemIDs": [
+				195,
+			],
+		},
+		{
+			//Pancakes
+			"ItemType": "Object",
+			"StockPrice": 120,
+			"ItemIDs": [
+				211,
+			],
+		},
+		{
+			//Cookie
+			"ItemType": "Object",
+			"StockPrice": 200,
+			"ItemIDs": [
+				223,
+			],
+			"Stock": 12,
+		},
+		{
+			//Poppyseed Muffin
+			"ItemType": "Object",
+			"StockPrice": 350,
+			"ItemIDs": [
+				651,
+			],
+			"Stock": 12,
+		},
+		{
+			//Maple Bar
+			"ItemType": "Object",
+			"StockPrice": 450,
+			"ItemIDs": [
+				731,
+			],
+			"Stock": 12,
+		},
+		{
+			//Plum Pudding
+			"ItemType": "Object",
+			"StockPrice": 520,
+			"ItemIDs": [
+				604,
+			],
+			"Stock": 5,
+		},
+		{
+			//Rice Pudding
+			"ItemType": "Object",
+			"StockPrice": 400,
+			"ItemIDs": [
+				232,
+			],
+			"Stock": 5,
+		},
+		{
+			//Pumpkin Pie
+			"ItemType": "Object",
+			"StockPrice": 770,
+			"ItemIDs": [
+				608,
+			],
+			"Stock": 3,
+		},
+		{
+			//Rhubarb Pie
+			"ItemType": "Object",
+			"StockPrice": 600,
+			"ItemIDs": [
+				222,
+			],
+			"Stock": 3,
+		},
+		{
+			//Blueberry Tart
+			"ItemType": "Object",
+			"StockPrice": 225,
+			"ItemIDs": [
+				234,
+			],
+			"Stock": 5,
+		},
+		{
+			//Blackberry Cobbler
+			"ItemType": "Object",
+			"StockPrice": 520,
+			"ItemIDs": [
+				611,
+			],
+			"Stock": 5,
+		},
+		{
+			//Chocolate Cake
+			"ItemType": "Object",
+			"StockPrice": 300,
+			"ItemIDs": [
+				220,
+			],
+			"Stock": 3,
+		},
+		{
+			//Pink Cake
+			"ItemType": "Object",
+			"StockPrice": 700,
+			"ItemIDs": [
+				221,
+			],
+			"Stock": 3,
+		},
+		{
+			//Strange Bun
+			"ItemType": "Object",
+			"StockPrice": 325,
+			"ItemIDs": [
+				203,
+			],
+			"Stock": 1,
+		},
+	  ],
+	  "When": [
+		"d Monday/t 700 1400",
+	  ],
+	  "ClosedMessage": "The cafe is closed right now...",
+	}
+	],
+}

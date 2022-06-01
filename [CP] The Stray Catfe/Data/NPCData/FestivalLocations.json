@@ -1,0 +1,164 @@
+{
+"Changes": [
+
+  {
+   "LogName": "TSC: Egg Festival Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring13",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 26 57 down/Theo 33 72 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 26 57 down/Theo 33 72 down",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Flower Dance Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring24",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 6 33 down/Theo 7 33 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 6 33 down/Theo 7 33 down",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Luau Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer11",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 40 7 down/Theo 13 20 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 40 7 down/Theo 13 20 right",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Moonlight Jellies Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer28",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 14 24 down/Theo 16 24 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 14 24 down/Theo 16 24 down",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Stardew Valley Fair Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall16",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 28 35 down/Theo 20 62 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 28 35 down/Theo 20 62 down",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Spirit's Eve Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 29 17 up/Theo 29 16 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 29 17 up/Theo 29 16 down",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Ice Festival Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter8",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 63 23 up",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 63 23 up",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Winter Star Locations",
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter25",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 25 67 down/Theo 26 68 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 25 67 down/Theo 26 68 left",
+         "Delimiter": "/"
+		},
+	]
+	},
+]
+}

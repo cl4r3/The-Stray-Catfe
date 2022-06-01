@@ -1,0 +1,101 @@
+{
+	"Format": "1.25.0",
+	"CustomLocations": [
+		{
+			"Name": "Custom_StrayCatfe_CafeIndoors",
+			"FromMapFile": "Assets/Maps/CafeIndoors.tmx"
+		},
+		{
+			"Name": "Custom_StrayCatfe_CafeOutdoors",
+			"FromMapFile": "Assets/Maps/CafeOutdoors.tmx"
+		}
+	],
+	"Changes": [
+		{
+			"LogName": "TSC: Basic NPC Data",
+			"Action": "Include",
+			"FromFile": "Data/NPCData/BasicData.json"
+		},
+		{
+			"LogName": "TSC: Tabitha Sprites",
+			"Action": "Load",
+			"Target": "Characters/Tabitha",
+			"FromFile": "Assets/Images/Tabitha_Sprites.png",
+		},
+		{
+			"LogName": "TSC: Theo Sprites",
+			"Action": "Load",
+			"Target": "Characters/Theo",
+			"FromFile": "Assets/Images/Theo_Sprites.png",
+		},
+		{
+			"LogName": "TSC: Tabitha Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Tabitha",
+			"FromFile": "Assets/Images/Tabitha_Portraits.png",
+		},
+		{
+			"LogName": "TSC: Theo Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Theo",
+			"FromFile": "Assets/Images/Theo_Portraits.png",
+		},
+		{
+			"LogName": "TSC: Tabitha Schedule",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Tabitha",
+			"FromFile": "Assets/Schedules/Tabitha.json",
+		},
+		{
+			"LogName": "TSC: Theo Schedule",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Theo",
+			"FromFile": "Assets/Schedules/Theo.json",
+		},
+		{
+			"LogName": "TSC: Normal Dialogue",
+			"Action": "Include",
+			"FromFile": "Assets/Dialogue/NormalDialogue.json",
+		},
+		{
+			"LogName": "TSC: Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "Assets/Dialogue/MarriageDialogue.json",
+		},
+		{
+			"LogName": "TSC: Schedule Dialogue",
+			"Action": "Include",
+			"FromFile": "Assets/Dialogue/ScheduleDialogue.json",
+		},
+		{
+			"LogName": "TSC: Festival Dialogue",
+			"Action": "Include",
+			"FromFile": "Assets/Dialogue/FestivalDialogue.json"
+		},
+		{
+			"LogName": "TSC: Festival Locations",
+			"Action": "Include",
+			"FromFile": "Data/NPCData/FestivalLocations.json"
+		},
+		{
+			"LogName": "TSC: Include Events",
+			"Action": "Include",
+			"FromFile": "Data/Events/Events.json"
+		},
+		{
+			"LogName": "TSC: Include Map Patches",
+			"Action": "Include",
+			"FromFile": "Data/MapData/MapPatches.json",
+		},
+		{
+			"LogName": "TSC: Include Map Strings",
+			"Action": "Include",
+			"FromFile": "Data/MapData/MapStrings.json",
+		},
+		{
+			"LogName": "TSC: Include Spouse Rooms",
+			"Action": "Include",
+			"FromFile": "Data/MapData/SpouseRooms.json",
+		},
+	]
+}
