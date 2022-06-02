@@ -1,12 +1,15 @@
 {
   "Name": "The Stray Catfe Update by ch20youk - CP",
   "Author": "Sierra Schedin (aka alistairweekend)",
-  "Version": "1.0.3",
+  "Version": "1.0.0",
   "Description": "Adds two new NPCs, Tabitha and Theo.",
   "UniqueID": "ch20youk.TSCCP",
   "MinimumApiVersion": "3.14",
   "UpdateKeys": ["Nexus:-1"],
   "ContentPackFor": {
   	"UniqueID": "Pathoschild.ContentPatcher"
-  }
+  },
+  "Dependencies": [
+    { "UniqueID": "aedenthorn.ExtraMapLayers" }
+  ]
 }

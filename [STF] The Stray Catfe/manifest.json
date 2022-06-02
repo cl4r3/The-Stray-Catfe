@@ -1,7 +1,7 @@
 {
   "Name": "The Stray Catfe Update by ch20youk - STF",
   "Author": "Sierra Schedin (aka alistairweekend)",
-  "Version": "1.0.3",
+  "Version": "1.0.0",
   "Description": "Shop functionality for The Stray Catfe.",
   "UniqueID": "ch20youk.TSCSTF",
   "MinimumApiVersion": "3.14",
@@ -10,8 +10,6 @@
   	"UniqueID": "Cherry.ShopTileFramework"
   },
   "Dependencies": [
-    {
-	  "UniqueID": "ch20youk.TSCCP"
-	}
+    { "UniqueID": "ch20youk.TSCCP" }
   ]
 }
