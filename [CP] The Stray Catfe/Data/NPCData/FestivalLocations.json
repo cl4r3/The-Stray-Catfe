@@ -9,13 +9,13 @@
 		{
          "Operation": "Append",
          "Target": ["Entries", "Set-Up_additionalCharacters"],
-         "Value": "Tabitha 26 57 down/Theo 33 72 down",
+         "Value": "Tabitha 27 57 down/Theo 24 64 down",
          "Delimiter": "/"
 		},
 		{
          "Operation": "Append",
          "Target": ["Entries", "MainEvent_additionalCharacters"],
-         "Value": "Tabitha 26 57 down/Theo 33 72 down",
+         "Value": "Tabitha 27 57 down/Theo 24 64 down",
          "Delimiter": "/"
 		},
 	]
@@ -35,7 +35,7 @@
 		{
          "Operation": "Append",
          "Target": ["Entries", "MainEvent_additionalCharacters"],
-         "Value": "Tabitha 6 33 down/Theo 7 33 down",
+         "Value": "Tabitha 6 33 up/Theo 7 33 up",
          "Delimiter": "/"
 		},
 	]

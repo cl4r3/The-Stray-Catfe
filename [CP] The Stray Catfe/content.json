@@ -1,5 +1,47 @@
 {
 	"Format": "1.25.0",
+	"ConfigSchema": [
+		"PortraitStyle": {
+			"AllowValues": "Original, AirynS",
+			"Default": "Original",
+			"Description": "Portrait style"
+		},
+		"ShowWheelchairBack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Show Theo's wheelchair in his portraits"
+		},
+	],
+	"DynamicTokens": [
+		{
+			"Name": "PortraitPath",
+			"Value": "Assets/Portraits/Original",
+			"When": {
+				"PortraitStyle": "Original"
+			}
+		},
+		{
+			"Name": "PortraitPath",
+			"Value": "Assets/Portraits/Airyn",
+			"When": {
+				"PortraitStyle": "AirynS"
+			}
+		},
+		{
+			"Name": "BackValue",
+			"Value": "",
+			"When": {
+				"ShowWheelchairBack": true
+			}
+		},
+		{
+			"Name": "BackValue",
+			"Value": "_NoBack",
+			"When": {
+				"ShowWheelchairBack": false
+			}
+		},
+	],
 	"CustomLocations": [
 		{
 			"Name": "Custom_StrayCatfe_CafeIndoors",
@@ -17,28 +59,33 @@
 			"FromFile": "Data/NPCData/BasicData.json"
 		},
 		{
-			"LogName": "TSC: Tabitha Sprites",
+			"LogName": "TSC: Character Sprites",
 			"Action": "Load",
-			"Target": "Characters/Tabitha",
-			"FromFile": "Assets/Images/Tabitha_Sprites.png",
-		},
+			"Target": "Characters/Tabitha, Characters/Theo, Characters/Tabitha_Beach, Characters/Theo_Beach",
+			"FromFile": "Assets/{{Target}}"
 		{
-			"LogName": "TSC: Theo Sprites",
-			"Action": "Load",
-			"Target": "Characters/Theo",
-			"FromFile": "Assets/Images/Theo_Sprites.png",
-		},
-		{
-			"LogName": "TSC: Tabitha Portraits",
+			"LogName": "TSC: Tabitha Portrait",
 			"Action": "Load",
 			"Target": "Portraits/Tabitha",
-			"FromFile": "Assets/Images/Tabitha_Portraits.png",
+			"FromFile": "{{PortraitPath}}/Tabitha.png",
 		},
 		{
-			"LogName": "TSC: Theo Portraits",
+			"LogName": "TSC: Tabitha Beach Portrait",
+			"Action": "Load",
+			"Target": "Portraits/Tabitha_Beach",
+			"FromFile": "{{PortraitPath}}/Tabitha_Beach.png",
+		},
+		{
+			"LogName": "TSC: Theo Portrait",
 			"Action": "Load",
 			"Target": "Portraits/Theo",
-			"FromFile": "Assets/Images/Theo_Portraits.png",
+			"FromFile": "{{PortraitPath}}/Theo{{BackValue}}.png",
+		},
+		{
+			"LogName": "TSC: Theo Beach Portrait",
+			"Action": "Load",
+			"Target": "Portraits/Theo_Beach",
+			"FromFile": "{{PortraitPath}}/Theo_Beach{{BackValue}}.png",
 		},
 		{
 			"LogName": "TSC: Tabitha Schedule",
