@@ -5,6 +5,5 @@
   "spring": "610 Custom_StrayCatfe_CafeIndoors 9 7 1/830 Custom_StrayCatfe_CafeOutdoors 8 9 0/1030 Custom_StrayCatfe_CafeIndoors 9 7 1/1230 Custom_StrayCatfe_CafeIndoors 6 18 2/1400 Town 18 59 2 \"Strings\\schedules\\Theo:spring.000\"/1700 Custom_StrayCatfe_CafeOutdoors 29 7 2/1900 Custom_StrayCatfe_CafeIndoors 2 14 2/2200 Custom_StrayCatfe_CafeIndoors 7 6 3",
   "summer": "610 9 7 1/830 Custom_StrayCatfe_CafeOutdoors 29 7 2/1030 Custom_StrayCatfe_CafeIndoors 9 7 1/1230 Custom_StrayCatfe_CafeIndoors 6 18 2/1400 Forest 38 74 3/1830 Custom_StrayCatfe_CafeIndoors 14 22 1/2200 Custom_StrayCatfe_CafeIndoors 7 6 3",
   "fall": "600 Custom_StrayCatfe_CafeIndoors 9 7 1/830 Custom_StrayCatfe_CafeOutdoors 8 9 0/1030 Custom_StrayCatfe_CafeIndoors 9 7 1/1230 Custom_StrayCatfe_CafeIndoors 6 18 2/1400 Custom_StrayCatfe_CafeOutdoors 29 7 2/1700 Custom_StrayCatfe_CafeIndoors 14 22 1/2200 Custom_StrayCatfe_CafeIndoors 7 6 3",
-  "winter": "610 Custom_StrayCatfe_CafeIndoors 7 6 3/830 Custom_StrayCatfe_CafeIndoors 9 7 1/1230 Custom_StrayCatfe_CafeIndoors 6 18 2/1400 Custom_StrayCatfe_CafeIndoors 9 7 1/1700 Custom_StrayCatfe_CafeIndoors 2 14 2/2200 Custom_StrayCatfe_CafeIndoors 7 6 3",
-  "default": "GOTO winter"
+  "winter": "610 Custom_StrayCatfe_CafeIndoors 7 6 3/830 Custom_StrayCatfe_CafeIndoors 9 7 1/1230 Custom_StrayCatfe_CafeIndoors 6 18 2/1400 Custom_StrayCatfe_CafeIndoors 9 7 1/1700 Custom_StrayCatfe_CafeIndoors 2 14 2/2200 Custom_StrayCatfe_CafeIndoors 7 6 3"
 }

@@ -1,0 +1,16 @@
+{
+"Changes": [
+
+	{
+		"LogName": "Animation Data",
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"Entries": {
+			"tabby_sleep": "39/39/39",
+			"theo_sleep": "51/51/51",
+		},
+	},
+
+
+]
+}
