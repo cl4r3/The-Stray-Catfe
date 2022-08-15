@@ -1,6 +1,6 @@
 {
-	"Format": "1.25.0",
-	"ConfigSchema": [
+	"Format": "1.27.0",
+	"ConfigSchema": {
 		"PortraitStyle": {
 			"AllowValues": "Original, AirynS",
 			"Default": "Original",
@@ -11,7 +11,7 @@
 			"Default": "true",
 			"Description": "Show Theo's wheelchair in his portraits"
 		},
-	],
+	},
 	"DynamicTokens": [
 		{
 			"Name": "PortraitPath",
@@ -62,7 +62,8 @@
 			"LogName": "TSC: Character Sprites",
 			"Action": "Load",
 			"Target": "Characters/Tabitha, Characters/Theo, Characters/Tabitha_Beach, Characters/Theo_Beach",
-			"FromFile": "Assets/{{Target}}"
+			"FromFile": "Assets/{{Target}}.png"
+		},
 		{
 			"LogName": "TSC: Tabitha Portrait",
 			"Action": "Load",
@@ -143,6 +144,11 @@
 			"LogName": "TSC: Include Spouse Rooms",
 			"Action": "Include",
 			"FromFile": "Data/MapData/SpouseRooms.json",
+		},
+		{
+			"LogName": "TSC: Include Tilesheets",
+			"Action": "Include",
+			"FromFile": "Data/MapData/Tilesheets.json",
 		},
 	]
 }

@@ -1,0 +1,24 @@
+{
+"Changes": [
+{
+   "Action": "Load",
+   "Target": "Maps/spring_zStrayCatfe",
+   "FromFile": "Assets/Maps/{{TargetWithoutPath}}.png"
+},
+{
+   "Action": "Load",
+   "Target": "Maps/summer_zStrayCatfe",
+   "FromFile": "Assets/Maps/{{TargetWithoutPath}}.png"
+},
+{
+   "Action": "Load",
+   "Target": "Maps/fall_zStrayCatfe",
+   "FromFile": "Assets/Maps/{{TargetWithoutPath}}.png"
+},
+{
+   "Action": "Load",
+   "Target": "Maps/winter_zStrayCatfe",
+   "FromFile": "Assets/Maps/{{TargetWithoutPath}}.png"
+},
+]
+}

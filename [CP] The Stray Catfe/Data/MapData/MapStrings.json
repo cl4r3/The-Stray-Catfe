@@ -16,6 +16,13 @@
       "CafeIndoors.8": "{{i18n:MapStrings.CafeIndoors.8}}",
       "CafeIndoors.9": "{{i18n:MapStrings.CafeIndoors.9}}",
     }
+  },
+  {
+    "Action":"EditData",
+    "Target":"Strings/StringsFromMaps",
+    "Entries":{
+      "CafeOutdoors.menu": "{{i18n:MapStrings.CafeOutdoors.menu}}",
+    }
   }
 ]
 }
