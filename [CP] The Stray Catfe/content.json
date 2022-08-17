@@ -150,5 +150,10 @@
 			"Action": "Include",
 			"FromFile": "Data/MapData/Tilesheets.json",
 		},
+		{
+			"LogName": "TSC: Include Fish Data",
+			"Action": "Include",
+			"FromFile": "Data/MapData/FishData.json",
+		},
 	]
 }
