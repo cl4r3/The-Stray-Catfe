@@ -1,0 +1,61 @@
+{
+"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TextOperations": [
+			//Spring
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 4],
+				"Value": "153 -1 143 -1 137 -1", // Green algae, catfish, smallmouth bass
+				"Delimiter": " "
+			},
+			//Summer
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 5],
+				"Value": "153 -1 143 -1 144 -1", // Green algae, catfish, pike
+				"Delimiter": " "
+			},
+			//Fall
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 6],
+				"Value": "269 -1 153 -1 143 -1 140 -1 137 1", // Midnight carp, green algae, catfish, walleye, smallmouth bass
+				"Delimiter": " "
+			},
+			//Winter
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 7],
+				"Value": "269 -1 153 -1 144 -1 143 -1 141 -1 140 -1", // Midnight carp, green algae, walleye, catfish, perch, pike
+				"Delimiter": " "
+			},
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"When": { "HasSeenEvent": "69069247" },
+		"Update": "OnTimeChange",
+		"TextOperations": [
+		// SVE Kittyfish
+			//Fall
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 6],
+				"Value": "{{spacechase0.JsonAssets/ObjectId:Kittyfish}} -1",
+				"Delimiter": " "
+			},
+			//Winter
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 7],
+				"Value": "{{spacechase0.JsonAssets/ObjectId:Kittyfish}} -1",
+				"Delimiter": " "
+			},
+		]
+	}
+]
+}
