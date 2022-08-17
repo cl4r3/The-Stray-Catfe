@@ -141,9 +141,9 @@
 			"FromFile": "Data/MapData/MapStrings.json",
 		},
 		{
-			"LogName": "TSC: Include Spouse Rooms",
+			"LogName": "TSC: Include Spouse Rooms + Patios",
 			"Action": "Include",
-			"FromFile": "Data/MapData/SpouseRooms.json",
+			"FromFile": "Data/NPCData/SpouseLocations.json",
 		},
 		{
 			"LogName": "TSC: Include Tilesheets",

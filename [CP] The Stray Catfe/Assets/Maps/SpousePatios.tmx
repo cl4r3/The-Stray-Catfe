@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="8" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="2409">
+ <properties>
+  <property name="Light" value="51 42 4 80 100 4 124 49 4 101 6 4 126 22 4 46 27 4 58 25 4 74 25 4 111 26 4 118 26 4 143 26 4 107 41 4 121 41 4 95 47 4 135 49 4 8 61 4 37 56 4 72 57 4 95 57 4 112 53 4 116 53 4 64 70 4 93 75 4 112 64 4 126 74 4 133 74 4 126 83 4 133 83 4 81 85 4 87 85 4 87 110 4 62 41 4 86 39 4 62 44 4 65 50 4 69 50 4 89 46 4 89 49 4 101 50 4 70 14 4 17 80 4 110 83 4 66 35 4 68 35 4 70 35 4 72 35 4 74 35 4 76 35 4 78 35 4 80 35 4 82 35 4 90 36 4 02 36 4 94 36 4 96 36 4 98 36 4 100 36 4"/>
+  <property name="NightTiles" value="AlwaysFront 51 42 908 AlwaysFront 80 100 908 AlwaysFront 124 49 908 AlwaysFront 101 6 908 AlwaysFront 126 22 908 AlwaysFront 46 27 908 AlwaysFront 58 25 908 AlwaysFront 74 25 908 AlwaysFront 111 26 908 AlwaysFront 118 26 908 AlwaysFront 143 26 908 AlwaysFront 107 41 908 AlwaysFront 121 41 908 AlwaysFront 95 47 908 AlwaysFront 135 49 908 AlwaysFront 8 61 908 AlwaysFront 37 56 908 AlwaysFront 72 57 908 AlwaysFront 95 57 908 AlwaysFront 112 53 908 AlwaysFront 116 53 908 AlwaysFront 64 70 908 AlwaysFront 93 75 908 AlwaysFront 112 64 908 AlwaysFront 126 74 908 AlwaysFront 133 74 908 AlwaysFront 126 83 908 AlwaysFront 133 83 908 AlwaysFront 81 85 908 AlwaysFront 87 85 908 AlwaysFront 87 110 908 AlwaysFront 70 14 507 AlwaysFront 17 80 507 AlwaysFront 110 83 507"/>
+  <property name="Outdoors" type="bool" value="true"/>
+  <property name="forceLoadPathLayerLights" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+  <tile id="0">
+   <properties>
+    <property name="PathType" value="NE"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="PathType" value="SE"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="PathType" value="WS"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="PathType" value="WN"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="PathType" value="Crossroad"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="PathType" value="End"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="37" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="2012" name="spring_zStrayCatfe" tilewidth="16" tileheight="16" tilecount="80" columns="8">
+  <image source="spring_zStrayCatfe.png" width="128" height="160"/>
+ </tileset>
+ <layer id="2" name="Buildings" width="8" height="4">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,2013,2014,2017,2018,
+2043,2028,2029,2043,2021,2022,2025,2026,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Buildings"/>
+ <layer id="3" name="Paths" width="8" height="4">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,8,0,0,8,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="4" name="Front" width="8" height="4">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+2035,2015,2016,2035,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Front"/>
+ <layer id="5" name="AlwaysFront" width="8" height="4">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>
