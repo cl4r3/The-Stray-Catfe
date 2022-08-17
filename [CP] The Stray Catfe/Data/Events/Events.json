@@ -47,7 +47,7 @@
     "Target": "Data/Events/Railroad",
     "Entries": {
       // Theo 4 heart event
-      "722/f Theo 1000/z winter":"sadpiano/41 40/farmer 29 45 0 Theo 39 41 2/skippable/pause 100/move farmer 0 -5 1 true/emote Theo 40/move farmer 8 0 2/move farmer 0 1 1/pause 200/emote farmer 8/pause 200/speak Theo \"{{i18n:Theo.Event4.0}}\"/pause 300/move farmer 1 0 2/pause 500/speak Theo \"{{i18n:Theo.Event4.1}}\"/pause 600/question null \"{{i18n:Theo.Event4.2}}\"/pause 200/speak Theo \"{{i18n:Theo.Event4.3}}\"/pause 400/move Theo 2 0 1/move Theo 0 -1 1/faceDirection farmer 1/move Theo 2 0 2/move Theo 0 1 1/move Theo 3 0 1 true/globalFade/viewport -1000 -1000/end"
+      "722/f Theo 1000/z winter":"sadpiano/41 40/farmer 29 45 0 Theo 39 41 2/skippable/pause 100/move farmer 0 -4 1 true/emote Theo 40/move farmer 6 0 2/move farmer 0 -1 0/move farmer 2 0 2/move farmer 0 1 1/pause 200/emote farmer 8/pause 200/speak Theo \"{{i18n:Theo.Event4.0}}\"/pause 300/move farmer 1 0 2/pause 500/speak Theo \"{{i18n:Theo.Event4.1}}\"/pause 600/question null \"{{i18n:Theo.Event4.2}}\"/pause 200/speak Theo \"{{i18n:Theo.Event4.3}}\"/pause 400/move Theo 2 0 1/move Theo 0 -1 1/faceDirection farmer 1/move Theo 2 0 2/move Theo 0 1 1/move Theo 3 0 1 true/globalFade/viewport -1000 -1000/end"
     }
   },
   {
