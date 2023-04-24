@@ -1,11 +1,11 @@
 {
   "Name": "The Stray Catfe Update by ch20youk - CP",
   "Author": "Sierra Schedin (aka alistairweekend) and ch20youk (aka moetrash)",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Adds two new NPCs, Tabitha and Theo.",
   "UniqueID": "ch20youk.TSCCP",
   "MinimumApiVersion": "3.14",
-  "UpdateKeys": ["Nexus:-1"],
+  "UpdateKeys": ["Nexus:16422"],
   "ContentPackFor": {
   	"UniqueID": "Pathoschild.ContentPatcher"
   },
