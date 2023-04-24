@@ -160,7 +160,7 @@
   "Tabitha.Schedule.rain.000": "Oh hi, @! Theo and I have tea together on nights like these. Want to join us for some gossip? *giggle*$h",
 
 
-  // Theo Dialogue //
+// Theo Dialogue //
 
   "Theo.Engaged.0": "Are we really doing this? We are, aren't we?$6",
   "Theo.Engaged.1": "Tabby is going to flip out... in a good way, of course.$l",
@@ -283,7 +283,7 @@
   "Theo.Schedule.rain.000": "Whatever Tabby tells you, we aren't gossiping, I swear.$7",
 
 
-  // Festival Dialogue //
+// Festival Dialogue //
 
   "Tabitha.Festival.spring13": "Eggs are important in baking! Let me know what you think of the sweets. I helped make them, of course.$h",
   "Tabitha.Festival.spring24": "I wonder if anyone will ask me to dance with them? *giggle*$l",
@@ -293,8 +293,20 @@
   "Tabitha.Festival.fall20": "Don't worry, Emily! I can dance with you! Can't promise I'll be any good, though!$h",
   "Tabitha.Festival.fall27": "AGH!!!$7#$b#...Oh, it's just @! See, I told you this was too scary for me, Theo!$s",
   "Tabitha.Festival.winter8": "Theo didn't want to come because of the snow. I'll have to have twice as much fun for him!",
+  "Tabitha.Festival.winter8_theo": "Wow, I just can't believe you're here, Theo!#$b#You must really love @ if you're braving the snow for him, huh?$1^You must really love @ if you're braving the snow for her, huh?$1",
   "Tabitha.Festival.winter25": "It's the best day of the year! I want to tell you who my partner for the gift exchange is so badly, but I know I can't.$h",
-  "Tabitha.Festival.winter28": "Thank Yoba for all this warm food, or else we'd all turn icicles up here!$h#$b#Oh, and the giant fire helps, too.",
+  "Tabitha.Festival.winter28": "Thank Yoba for all this warm food, or else we'd all turn into icicles up here!$h#$b#Oh, and the giant fire helps, too.",
+
+  "Tabitha.Festival.spring13_spouse": "Hey, honey! Wanna try one of Evelyn's meringues? They're delicious!$1#$b#Here, say ahh~!",
+  "Tabitha.Festival.spring24_spouse": "I wonder if a certain cute local farmer will ask me to dance with him? *giggle*$1^I wonder if a certain cute local farmer will ask me to dance with her? *giggle*$l",
+  "Tabitha.Festival.summer11_spouse": "Did you bring something for the soup, dear?#$b#Here, take some of the Amaranth I brought just in case.[300]",
+  "Tabitha.Festival.summer28_spouse": "I love this festival, but I'll have to wake up so early tomorrow to change the decor for the cafe!$s#$b#Oh well, I can feel bad for myself later. For now I'll just focus on having a good time!",
+  "Tabitha.Festival.fall16_spouse": "Good luck with your grange display, dear!$1#$b#I'd go over there to cheer you on, but Willy's display kind of smells...$1",
+  "Tabitha.Festival.fall20_spouse": "Psst, honey...#$b#I know I'm supposed to support the girls' team, but Keahi's fruits look really good! Would it be bad of me to buy them?$s",
+  "Tabitha.Festival.fall27_spouse": "Honey, can you stay with me? I'll feel safer if you're here, too...$s",
+  "Tabitha.Festival.winter8_spouse": "",
+  "Tabitha.Festival.winter25_spouse": "",
+  "Tabitha.Festival.winter28_spouse": "",
 
   "Theo.Festival.spring13": "Where did Tabby go...? I'm always so awkward at these events.$s",
   "Theo.Festival.spring24": "Man, I wish this festival was actually about flowers and not just dancing... It's so misleading.$s",
@@ -304,10 +316,21 @@
   "Theo.Festival.fall20": "Every year, the boys' stall is a complete mess...#$b#I'd help them decorate a bit, but honestly, I can't be bothered$h.",
   "Theo.Festival.fall27": "Aw, come on, Tabby! You always drag me to festivals I don't want to go to, so I think it's only fair you come to this one. I'll keep you safe, don't worry!$h",
   "Theo.Festival.winter25": "I guess the holiday cheer is a bit contagious. This is a pretty nice event.",
-  "Theo.Festival.winter28": "Getting all the way up here can be a pain, but Philip made sure the correct accommodations were in place.$h#$b#Now if only he could make it earlier...$s",
+  "Theo.Festival.winter28": "Getting all the way up here can be a pain, but Philip made sure the correct accommodations were in place.$h#$b#Now if only he could make it earlier... *yawn*$s",
+
+  "Theo.Festival.spring13_spouse": "",
+  "Theo.Festival.spring24_spouse": "",
+  "Theo.Festival.summer11_spouse": "",
+  "Theo.Festival.summer28_spouse": "",
+  "Theo.Festival.fall16_spouse": "",
+  "Theo.Festival.fall20_spouse": "",
+  "Theo.Festival.fall27_spouse": "",
+  "Theo.Festival.winter8_spouse": "It's really not that big a deal, Tabby... Can't we just focus on the festival?$6",
+  "Theo.Festival.winter25_spouse": "",
+  "Theo.Festival.winter28_spouse": "",
 
 
-  // Event Dialogue //
+// Event Dialogue //
 
   // Tabitha 2 heart event
   "Tabitha.Event2.0": "Oh! Hi, @. I didn’t expect to see you here.$7",
@@ -415,10 +438,22 @@
   "Theo.Event10.7": "...Ah. I... don’t really know what to say, now.$s#$b#I guess I misread your feelings. Sorry.$a",
   "Theo.Event10.8": "Were you just playing with my feelings?$a",
 
+  // Resort Dialogue //
+  "Tabitha.Resort_Entering": "Yay, a beach day!$1#$b#Stay right there, @ - I can't wait to show you my outfit!",
+  "Tabitha.Resort": "I do miss the cafe, but it's impossible to feel down in a place as gorgeous as this!",
+  "Tabitha.Resort_Shore": "@! Can you help me? I'm looking for seashells to decorate a sandcastle with!#$b#If you see any pink or orange ones, let me know, okay?",
+	//"Tabitha.Resort_Umbrella": "",
+  "Tabitha.Resort_Leaving": "It's a shame we have to leave so soon...$2#$b#Maybe we could start a second cafe here, and then I could come all the time!#$b#Haha, just kidding. Theo would never be on board.$1",
 
-  // Map Strings //
+  "Theo.Resort_Entering": "Tabby said I should try to get out more, so I thought I'd take a trip here, but...$3#$b#Just look at all this sand! I hope my chair doesn't get stuck.",
+  "Theo.Resort": "Good news, @! Willy brought some sand tires for me, so I can get around here no problem.$1#$e#The flora on this island is stuff I've only ever read about before. I'm so glad I get to see it in person.$1",
+  //"Theo.Resort_Shore": "",
+	//"Theo.Resort_Umbrella": "",
+  "Theo.Resort_Leaving": "I was nervous about coming here, but I'm really happy I did. I'll definitely be coming back.$1",
 
-  "MapStrings.BusStop.1": "` Bus Stop^East: Pelican Town^South: The Stray Catfe",
+// Map Strings //
+
+  "MapStrings.BusStop.1": "North: Bus Stop^East: Pelican Town^South: The Stray Catfe",
   "MapStrings.CafeOutdoors.1": "Various herbs and flowers. They're all healthy and clearly well-loved.",
   "MapStrings.CafeIndoors.1": "It's still warm from the last batch of pastries!",
   "MapStrings.CafeIndoors.2": "These cookies look delicious.",
@@ -433,7 +468,7 @@
   "MapStrings.CafeOutdoors.menu": "< Daily Menu <",
 
 
-  // Misc //
+// Misc //
 
   "Tabitha.MarriageVows.MaleFarmer": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Tabitha in the bonds of marriage.",
   "Tabitha.MarriageVows.FemaleFarmer": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Tabitha in the bonds of marriage.",
@@ -442,6 +477,6 @@
 
   "Theo.MarriageVows.MaleFarmer": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Theo in the bonds of marriage.",
   "Theo.MarriageVows.FemaleFarmer": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Theo in the bonds of marriage.",
-  "Theo.MarriageVows.WifeHusband": "@... Theo...#$b#As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and husband!$h",
+  "Theo.MarriageVows.WifeHusband": "@... Theo...#$b#As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
   "Theo.MarriageVows.HusbandHusband": "@... Theo...#$b#As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and..., well, husband!$h",
 }

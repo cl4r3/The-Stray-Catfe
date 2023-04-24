@@ -102,6 +102,10 @@
         "shop_event3": "{{i18n:Tabitha.Event4.shop_event3}}",
         "tree_event1": "{{i18n:Tabitha.Event6.tree_event1}}",
         "tree_event2": "{{i18n:Tabitha.Event6.tree_event2}}",
+        "Resort_Entering": "{{i18n:Tabitha.Resort_Entering}}",
+        "Resort": "{{i18n:Tabitha.Resort}}",
+        "Resort_Shore": "{{i18n:Tabitha.Resort_Shore}}",
+        "Resort_Leaving": "{{i18n:Tabitha.Resort_Leaving}}",
     }
   },
   {
@@ -172,6 +176,9 @@
         "event_garden1": "{{i18n:Theo.Event8.event_garden1}}",
         "event_garden2": "{{i18n:Theo.Event8.event_garden2}}",
         "event_garden3": "{{i18n:Theo.Event8.event_garden3}}",
+        "Resort_Entering": "{{i18n:Theo.Resort_Entering}}",
+        "Resort": "{{i18n:Theo.Resort}}",
+        "Resort_Leaving": "{{i18n:Theo.Resort_Leaving}}",
     }
   }
 ]
