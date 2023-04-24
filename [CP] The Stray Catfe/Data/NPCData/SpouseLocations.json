@@ -19,7 +19,7 @@
       "LogName": "TSC: Load Spouse Patio Map",
       "Action": "Load",
       "Target": "Maps/TSCSpousePatios",
-      "FromFile": "Assets/Maps/SpousePatio.tmx"
+      "FromFile": "Assets/Maps/SpousePatios.tmx"
   },
   {
     "LogName": "TSC: Load Spouse Patios",

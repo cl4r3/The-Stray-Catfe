@@ -22,9 +22,10 @@
 	},
 
   {
-   "LogName": "TSC: Flower Dance Locations",
+   "LogName": "TSC: Flower Dance Locations without SVE",
    "Action": "EditData",
    "Target": "Data/Festivals/spring24",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
    "TextOperations": [
 		{
          "Operation": "Append",
@@ -36,6 +37,27 @@
          "Operation": "Append",
          "Target": ["Entries", "MainEvent_additionalCharacters"],
          "Value": "Tabitha 6 33 up/Theo 7 33 up",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Flower Dance Locations with SVE",
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring24",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 9 34 down/Theo 8 34 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 9 34 up/Theo 8 34 up",
          "Delimiter": "/"
 		},
 	]
@@ -82,9 +104,10 @@
 	},
 
   {
-   "LogName": "TSC: Stardew Valley Fair Locations",
+   "LogName": "TSC: Stardew Valley Fair Locations without SVE",
    "Action": "EditData",
    "Target": "Data/Festivals/fall16",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
    "TextOperations": [
 		{
          "Operation": "Append",
@@ -96,6 +119,27 @@
          "Operation": "Append",
          "Target": ["Entries", "MainEvent_additionalCharacters"],
          "Value": "Tabitha 28 35 down/Theo 20 62 down",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Stardew Valley Fair Locations with SVE",
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall16",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 21 26 up/Theo 22 65 up",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 21 26 up/Theo 22 65 up",
          "Delimiter": "/"
 		},
 	]
@@ -123,9 +167,10 @@
 	},
 
   {
-   "LogName": "TSC: Spirit's Eve Locations",
+   "LogName": "TSC: Spirit's Eve Locations without SVE",
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
    "TextOperations": [
 		{
          "Operation": "Append",
@@ -137,6 +182,27 @@
          "Operation": "Append",
          "Target": ["Entries", "MainEvent_additionalCharacters"],
          "Value": "Tabitha 29 17 up/Theo 29 16 down",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Spirit's Eve Locations with SVE",
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall27",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 14 26 right/Theo 15 26 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 14 26 right/Theo 15 26 left",
          "Delimiter": "/"
 		},
 	]
@@ -163,9 +229,10 @@
 	},
 
   {
-   "LogName": "TSC: Winter Star Locations",
+   "LogName": "TSC: Winter Star Locations without SVE",
    "Action": "EditData",
    "Target": "Data/Festivals/winter25",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
    "TextOperations": [
 		{
          "Operation": "Append",
@@ -177,6 +244,27 @@
          "Operation": "Append",
          "Target": ["Entries", "MainEvent_additionalCharacters"],
          "Value": "Tabitha 25 67 down/Theo 26 68 left",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Winter Star Locations with SVE",
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter25",
+   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 37 69 left/Theo 37 70 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 37 69 left/Theo 37 70 left",
          "Delimiter": "/"
 		},
 	]
