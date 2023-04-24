@@ -10,6 +10,17 @@
   	"UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
-    { "UniqueID": "aedenthorn.ExtraMapLayers" }
+    {
+      "UniqueID": "aedenthorn.ExtraMapLayers",
+      "IsRequired": true,
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false,
+    },
+    {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": false,
+    },
   ]
 }

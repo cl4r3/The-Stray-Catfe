@@ -149,7 +149,7 @@
    "LogName": "TSC: Ridgeside Gathering Locations",
    "Action": "EditData",
    "Target": "Data/Festivals/fall20",
-   "When": { "HasMod |contains=Rafseazz.RidgesideVillage": true },
+   "When": { "HasMod |contains=Rafseazz.RSVCP": true },
    "TextOperations": [
 		{
          "Operation": "Append",
@@ -274,7 +274,7 @@
    "LogName": "TSC: Ember of Resolutions Locations",
    "Action": "EditData",
    "Target": "Data/Festivals/winter28",
-   "When": { "HasMod |contains=Rafseazz.RidgesideVillage": true },
+   "When": { "HasMod |contains=Rafseazz.RSVCP": true },
    "TextOperations": [
 		{
          "Operation": "Append",
