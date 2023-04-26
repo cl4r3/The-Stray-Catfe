@@ -18,6 +18,10 @@
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false,
     },
+	{
+		"UniqueID": "flashshifter.GrandpasFarm",
+		"IsRequired": false,
+	},
     {
       "UniqueID": "Rafseazz.RSVCP",
       "IsRequired": false,
