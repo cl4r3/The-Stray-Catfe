@@ -8,7 +8,7 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 15, "Height": 6 },
 		"ToArea": { "X": 9, "Y": 24, "Width": 15, "Height": 6 },
 		"PatchMode": "Replace",
-    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false }
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod | contains=flashshifter.GrandpasFarm": false }
 	},
   {
     "LogName": "TSC: Bus Stop Warps",
@@ -19,7 +19,7 @@
       "16 30 Custom_StrayCatfe_CafeOutdoors 17 0",
       "17 30 Custom_StrayCatfe_CafeOutdoors 18 0",
     ],
-    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false }
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod | contains=flashshifter.GrandpasFarm": false }
   },
   {
     "LogName": "TSC: Cafe Warps",
@@ -31,7 +31,7 @@
       "18 -1 BusStop 16 28",
       "19 -1 BusStop 17 28"
     ],
-    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false }
+    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod | contains=flashshifter.GrandpasFarm": false }
   },
 
   {
@@ -66,6 +66,41 @@
       "19 -1 BusStop 22 28"
     ],
     "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": true }
+  },
+  //Start
+  {
+		"LogName": "TSC: Bus Stop Path for Grandpa's Farm",
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"FromFile": "Assets/Maps/BusStopPathGrandpasFarm.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
+		"ToArea": { "X": 25, "Y": 24, "Width": 7, "Height": 6 },
+		"PatchMode": "Replace",
+    "When": { "HasMod | contains=flashshifter.GrandpasFarm": true }
+	},
+  {
+    "LogName": "TSC: Bus Stop Warps for IF2R",
+    "Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "AddWarps": [
+      "26 30 Custom_StrayCatfe_CafeOutdoors 16 0",
+      "27 30 Custom_StrayCatfe_CafeOutdoors 17 0",
+      "28 30 Custom_StrayCatfe_CafeOutdoors 18 0",
+	  "29 30 Custom_StrayCatfe_CafeOutdoors 19 0",
+    ],
+    "When": { "HasMod | contains=flashshifter.GrandpasFarm": true }
+  },
+  {
+    "LogName": "TSC: Cafe Warps for IF2R",
+    "Action": "EditMap",
+    "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
+    "AddWarps": [
+      "16 -1 BusStop 26 28",
+      "17 -1 BusStop 27 28",
+      "18 -1 BusStop 21 28",
+      "19 -1 BusStop 22 28"
+    ],
+    "When": { "HasMod | contains=flashshifter.GrandpasFarm": true }
   },
 ]
 }
