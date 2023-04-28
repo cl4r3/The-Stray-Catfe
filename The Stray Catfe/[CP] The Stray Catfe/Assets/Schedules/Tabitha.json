@@ -1,0 +1,12 @@
+{
+  "rain": "610 Custom_StrayCatfe_CafeIndoors 16 13 0/700 Custom_StrayCatfe_CafeIndoors 14 13 2/1400 Custom_StrayCatfe_CafeIndoors 16 13 0/1500 Custom_StrayCatfe_CafeIndoors 11 19 3/1600 Custom_StrayCatfe_CafeIndoors 7 14 2/1700 Custom_StrayCatfe_CafeIndoors 17 6 1 \"Strings\\schedules\\Tabitha:rain.000\"/1930 Custom_StrayCatfe_CafeIndoors 13 8 3/2000 Custom_StrayCatfe_CafeIndoors 15 6 2 tabitha_sleep",
+  "Mon": "700 Town 43 78 2/900 SeedShop 9 27 1/930 SeedShop 13 26 1/1000 SeedShop 12 29 3/1030 SeedShop 16 25 3/1100 SeedShop 14 23 0/1200 SeedShop 11 20 2/1230 Town 85 88 2/1530 Custom_StrayCatfe_CafeIndoors 16 13 0/1930 Custom_StrayCatfe_CafeIndoors 13 8 3/2000 Custom_StrayCatfe_CafeIndoors 15 6 2 tabitha_sleep",
+  "spring_1": "610 Custom_StrayCatfe_CafeIndoors 14 13 2/700 Town 43 78 2/900 SeedShop 9 27 1/930 SeedShop 13 26 1/1000 SeedShop 12 29 3/1030 SeedShop 16 25 3/1100 SeedShop 14 23 0/1200 SeedShop 11 20 2/1230 Town 85 88 2/1530 Custom_StrayCatfe_CafeIndoors 16 13 0/1930 Custom_StrayCatfe_CafeIndoors 13 8 3/2000 Custom_StrayCatfe_CafeIndoors 15 6 2 tabitha_sleep",
+  "spring": "610 Custom_StrayCatfe_CafeIndoors 16 13 0/700 Custom_StrayCatfe_CafeIndoors 14 13 2/1400 Town 21 26 1/1600 Forest 38 10 3/1800 Custom_StrayCatfe_CafeIndoors 16 13 0 \"Strings\\schedules\\Tabitha:spring.000\"/1930 Custom_StrayCatfe_CafeIndoors 13 8 3/2000 Custom_StrayCatfe_CafeIndoors 15 6 2 tabitha_sleep",
+  "summer": "GOTO spring",
+  "summer_Thu": "610 Custom_StrayCatfe_CafeIndoors 16 13 0/700 Custom_StrayCatfe_CafeIndoors 14 13 2/1400 Town 87 93 0/1500 Town 85 88 2/1530 Custom_StrayCatfe_CafeIndoors 16 13 0 \"Strings\\schedules\\Tabitha:spring.000\"/1930 Custom_StrayCatfe_CafeIndoors 13 8 3/2100 Custom_StrayCatfe_CafeIndoors 15 6 2 tabitha_sleep",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "marriage": "610 Custom_StrayCatfe_CafeIndoors 14 13 2/1400 Custom_StrayCatfe_CafeIndoors 16 13 0/1600 Town 21 26 1/1700 Custom_StrayCatfe_CafeIndoors 9 16 2/1800 BusStop -1 23 3",
+  "marriage_Mon": "700 Town 43 78 2/900 SeedShop 9 27 1/930 SeedShop 13 26 1/1000 SeedShop 12 29 3/1030 SeedShop 16 25 3/1100 SeedShop 14 23 0/1200 SeedShop 11 20 2/1230 Town 85 88 2/1830 BusStop -1 23 3"
+}

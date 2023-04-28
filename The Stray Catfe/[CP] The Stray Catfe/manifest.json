@@ -15,20 +15,28 @@
       "IsRequired": true,
     },
     {
-      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "UniqueID": "spacechase0.JsonAssets",
       "IsRequired": false,
     },
-	{
-		"UniqueID": "flashshifter.GrandpasFarm",
-		"IsRequired": false,
-	},
     {
       "UniqueID": "Rafseazz.RSVCP",
       "IsRequired": false,
     },
     {
-      "UniqueID": "spacechase0.JsonAssets",
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false,
+    },
+    {
+    	"UniqueID": "flashshifter.immersivefarm2remastered",
+    	"IsRequired": false,
+    },
+    {
+    	"UniqueID": "flashshifter.GrandpasFarm",
+    	"IsRequired": false,
+    },
+    {
+    	"UniqueID": "DaisyNiko.SVR3",
+    	"IsRequired": false,
     },
   ]
 }

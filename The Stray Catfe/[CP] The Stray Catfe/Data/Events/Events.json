@@ -6,8 +6,8 @@
 		"Target": "Data/Events/ArchaeologyHouse",
 		"Entries": {
       // Tabitha 8 heart event
-      "244/f Tabitha 2000/e 236":"none/18 10/farmer -100 -100 0 Tabitha 11 9 0/skippable/warp farmer 3 14 0/playSound doorClose/move farmer 0 -2 0/move farmer 3 0 1 true/emote Tabitha 56/move farmer 0 2 2/move farmer 5 0 0/move farmer 0 -2 0 true/emote farmer 32/emote Tabitha 16/faceDirection Tabitha 2/speak Tabitha \"{{i18n:Tabitha.Event8.0}}\"/pause 600/question fork2 \"{{i18n:Tabitha.Event8.1}}\"/pause 400/fork helpTabitha/speak Tabitha \"{{i18n:Tabitha.Event8.2}}\"/end",
-      "helpTabitha":"speak Tabitha \"{{i18n:Tabitha.Event8.3}}\"/emote Tabitha 20/move Tabitha 5 0 2 true/move farmer 5 0 2 true/move Tabitha 0 1 1/move farmer 0 1 1/move farmer 3 0 1 true/emote Tabitha 60/move farmer 0 -2 3/speak Tabitha \"{{i18n:Tabitha.Event8.4}}\"/pause 200/emote farmer 32/pause 500/emote Tabitha 20/end dialogue Tabitha \"{{i18n:Tabitha.Event8.5}}\""
+      "244/f Tabitha 2000/e 236":"none/18 10/farmer -100 -100 0 Tabitha 11 9 0/skippable/warp farmer 3 14 0/playSound doorClose/move farmer 0 -2 0/move farmer 4 0 1 true/emote Tabitha 56/move farmer 0 2 2/move farmer 4 0 0/move farmer 0 -2 0 true/emote farmer 32/emote Tabitha 16/faceDirection Tabitha 2/speak Tabitha \"{{i18n:Tabitha.Event8.0}}\"/pause 600/question fork2 \"{{i18n:Tabitha.Event8.1}}\"/pause 400/fork helpTabitha/speak Tabitha \"{{i18n:Tabitha.Event8.2}}\"/end",
+      "helpTabitha":"speak Tabitha \"{{i18n:Tabitha.Event8.3}}\"/emote Tabitha 20/move Tabitha 5 0 2 true/move farmer 5 0 2 true/move Tabitha 0 1 1/move farmer 0 1 1/move farmer 3 0 1 true/emote Tabitha 60/move farmer 0 -3 3/speak Tabitha \"{{i18n:Tabitha.Event8.4}}\"/pause 200/emote farmer 32/pause 500/emote Tabitha 20/end dialogue Tabitha \"{{i18n:Tabitha.Event8.5}}\""
     }
   },
   {

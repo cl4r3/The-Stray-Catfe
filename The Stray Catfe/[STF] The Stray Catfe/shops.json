@@ -164,9 +164,7 @@
 			"Stock": 1,
 		},
 	  ],
-	  "When": [
-		"d Monday/t 700 1400",
-	  ],
+	  "When": ["NPCAt Tabitha 14 13"],
 	  "ClosedMessage": "The cafe is closed right now...",
 	}
 	],

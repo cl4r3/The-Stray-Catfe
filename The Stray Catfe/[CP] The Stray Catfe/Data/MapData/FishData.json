@@ -1,5 +1,14 @@
 {
 "Changes": [
+	//Set basics
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			// Forage/artifact info same as bus stop
+			"Custom_StrayCatfe_CafeOutdoors": "18 .9 20 .4 22 .7/396 .4 398 .4 402 .7/406 .6 408 .4/414 .33 418 .6 283 .5/-1/-1/-1/-1/584 .08 378 .15 102 .15 390 .25 330 1",
+		},
+	},
 	{
 		"Action": "EditData",
 		"Target": "Data/Locations",
@@ -37,7 +46,11 @@
 	{
 		"Action": "EditData",
 		"Target": "Data/Locations",
-		"When": { "HasSeenEvent": "69069247" },
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+      "HasMod | contains=spacechase0.JsonAssets": true,
+			"HasSeenEvent": "69069247",
+		},
 		"Update": "OnTimeChange",
 		"TextOperations": [
 		// SVE Kittyfish

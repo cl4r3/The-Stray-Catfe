@@ -1,4 +1,6 @@
 {
+
+// Base changes
 "Changes": [
   {
 		"LogName": "TSC: Bus Stop Path",
@@ -8,7 +10,11 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 15, "Height": 6 },
 		"ToArea": { "X": 9, "Y": 24, "Width": 15, "Height": 6 },
 		"PatchMode": "Replace",
-    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod | contains=flashshifter.GrandpasFarm": false }
+    "When": {
+      "HasMod |contains=flashshifter.immersivefarm2remastered": false,
+      "HasMod |contains=flashshifter.GrandpasFarm": false,
+      "HasMod |contains=DaisyNiko.SVR3": false,
+    }
 	},
   {
     "LogName": "TSC: Bus Stop Warps",
@@ -19,7 +25,11 @@
       "16 30 Custom_StrayCatfe_CafeOutdoors 17 0",
       "17 30 Custom_StrayCatfe_CafeOutdoors 18 0",
     ],
-    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod | contains=flashshifter.GrandpasFarm": false }
+    "When": {
+      "HasMod |contains=flashshifter.immersivefarm2remastered": false,
+      "HasMod |contains=flashshifter.GrandpasFarm": false,
+      "HasMod |contains=DaisyNiko.SVR3": false,
+    }
   },
   {
     "LogName": "TSC: Cafe Warps",
@@ -31,9 +41,14 @@
       "18 -1 BusStop 16 28",
       "19 -1 BusStop 17 28"
     ],
-    "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod | contains=flashshifter.GrandpasFarm": false }
+    "When": {
+      "HasMod |contains=flashshifter.immersivefarm2remastered": false,
+      "HasMod |contains=flashshifter.GrandpasFarm": false,
+      "HasMod |contains=DaisyNiko.SVR3": false,
+    }
   },
 
+// Immersive Farm Two Remastered
   {
 		"LogName": "TSC: Bus Stop Path for IF2R",
 		"Action": "EditMap",
@@ -67,7 +82,8 @@
     ],
     "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": true }
   },
-  //Start
+
+// Grandpa's Farm (by ASLane Zero)
   {
 		"LogName": "TSC: Bus Stop Path for Grandpa's Farm",
 		"Action": "EditMap",
@@ -76,10 +92,10 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
 		"ToArea": { "X": 25, "Y": 24, "Width": 7, "Height": 6 },
 		"PatchMode": "Replace",
-    "When": { "HasMod | contains=flashshifter.GrandpasFarm": true }
+    "When": { "HasMod |contains=flashshifter.GrandpasFarm": true }
 	},
   {
-    "LogName": "TSC: Bus Stop Warps for IF2R",
+    "LogName": "TSC: Bus Stop Warps for Grandpa's Farm",
     "Action": "EditMap",
     "Target": "Maps/BusStop",
     "AddWarps": [
@@ -88,10 +104,10 @@
       "28 30 Custom_StrayCatfe_CafeOutdoors 18 0",
 	  "29 30 Custom_StrayCatfe_CafeOutdoors 19 0",
     ],
-    "When": { "HasMod | contains=flashshifter.GrandpasFarm": true }
+    "When": { "HasMod |contains=flashshifter.GrandpasFarm": true }
   },
   {
-    "LogName": "TSC: Cafe Warps for IF2R",
+    "LogName": "TSC: Cafe Warps for Grandpa's Farm",
     "Action": "EditMap",
     "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
     "AddWarps": [
@@ -100,7 +116,43 @@
       "18 -1 BusStop 21 28",
       "19 -1 BusStop 22 28"
     ],
-    "When": { "HasMod | contains=flashshifter.GrandpasFarm": true }
+    "When": { "HasMod |contains=flashshifter.GrandpasFarm": true }
   },
+
+// Stardew Valley Reimagined Three
+    {
+  		"LogName": "TSC: Bus Stop Path for Reimagined 3",
+  		"Action": "EditMap",
+  		"Target": "Maps/BusStop",
+  		"FromFile": "Assets/Maps/BusStopPathSVR3.tmx",
+  		"FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 6 },
+  		"ToArea": { "X": 18, "Y": 24, "Width": 6, "Height": 6 },
+  		"PatchMode": "Replace",
+      "When": { "HasMod |contains=DaisyNiko.SVR3": true }
+  	},
+    {
+      "LogName": "TSC: Bus Stop Warps for Reimagined 3",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "AddWarps": [
+        "19 30 Custom_StrayCatfe_CafeOutdoors 16 0",
+        "20 30 Custom_StrayCatfe_CafeOutdoors 17 0",
+        "21 30 Custom_StrayCatfe_CafeOutdoors 18 0",
+        "22 30 Custom_StrayCatfe_CafeOutdoors 19 0",
+      ],
+      "When": { "HasMod |contains=DaisyNiko.SVR3": true }
+    },
+    {
+      "LogName": "TSC: Cafe Warps for Reimagined 3",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
+      "AddWarps": [
+        "16 -1 BusStop 19 29",
+        "17 -1 BusStop 20 29",
+        "18 -1 BusStop 21 29",
+        "19 -1 BusStop 22 29"
+      ],
+      "When": { "HasMod |contains=DaisyNiko.SVR3": true }
+    },
 ]
 }
