@@ -111,10 +111,10 @@
     "Action": "EditMap",
     "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
     "AddWarps": [
-      "16 -1 BusStop 26 28",
-      "17 -1 BusStop 27 28",
-      "18 -1 BusStop 21 28",
-      "19 -1 BusStop 22 28"
+      "16 -1 BusStop 26 29",
+      "17 -1 BusStop 27 29",
+      "18 -1 BusStop 28 29",
+      "19 -1 BusStop 29 29"
     ],
     "When": { "HasMod |contains=flashshifter.GrandpasFarm": true }
   },
