@@ -2,7 +2,7 @@
 	"Shops": [
 	{
 	  "ShopName": "StrayCatfe",
-	  "PortraitPath": "assets/Tabitha.png",
+	  //"PortraitPath": "assets/Tabitha.png",
 	  "Quote": "Hiya, welcome! What can I get you?",
 	  "ItemStocks": [
 		{

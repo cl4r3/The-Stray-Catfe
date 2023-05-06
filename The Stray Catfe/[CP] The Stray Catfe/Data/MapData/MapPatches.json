@@ -36,10 +36,10 @@
     "Action": "EditMap",
     "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
     "AddWarps": [
-      "16 -1 BusStop 15 28",
-      "17 -1 BusStop 16 28",
-      "18 -1 BusStop 16 28",
-      "19 -1 BusStop 17 28"
+      "16 -1 BusStop 15 29",
+      "17 -1 BusStop 16 29",
+      "18 -1 BusStop 16 29",
+      "19 -1 BusStop 17 29"
     ],
     "When": {
       "HasMod |contains=flashshifter.immersivefarm2remastered": false,
@@ -75,10 +75,10 @@
     "Action": "EditMap",
     "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
     "AddWarps": [
-      "16 -1 BusStop 20 28",
-      "17 -1 BusStop 21 28",
-      "18 -1 BusStop 21 28",
-      "19 -1 BusStop 22 28"
+      "16 -1 BusStop 20 29",
+      "17 -1 BusStop 21 29",
+      "18 -1 BusStop 21 29",
+      "19 -1 BusStop 22 29"
     ],
     "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": true }
   },
@@ -102,7 +102,7 @@
       "26 30 Custom_StrayCatfe_CafeOutdoors 16 0",
       "27 30 Custom_StrayCatfe_CafeOutdoors 17 0",
       "28 30 Custom_StrayCatfe_CafeOutdoors 18 0",
-	  "29 30 Custom_StrayCatfe_CafeOutdoors 19 0",
+      "29 30 Custom_StrayCatfe_CafeOutdoors 19 0",
     ],
     "When": { "HasMod |contains=flashshifter.GrandpasFarm": true }
   },

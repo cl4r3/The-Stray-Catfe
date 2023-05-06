@@ -1,8 +1,3 @@
-The Stray Catfe - v1.0.1
-- Grandpa's Farm compatibility (thanks to ASLaneZero)
-- Both characters properly go to sleep now
-- Tabitha starts her day from her bed
-- Cafe shop only open when Tabitha is present (now closed Mondays)
-- Fixed issue with fish and added vanilla forage + artifacts to outdoor map
-- Fixed Tabitha's 8 heart event to work with SVE
-- Added compatibility patch for Stardew Valley Reimagined 3
+The Stray Catfe - v1.0.3
+- Fixed bad formatting in Data/Locations
+- Added more potential fish when using East Scarp or More New Fish

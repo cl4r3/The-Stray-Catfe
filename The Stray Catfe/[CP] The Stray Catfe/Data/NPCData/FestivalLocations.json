@@ -188,10 +188,13 @@
 	},
 
   {
-   "LogName": "TSC: Spirit's Eve Locations with SVE",
+   "LogName": "TSC: Spirit's Eve Locations with SVE Y1",
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
-   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+   "When": {
+     "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+     "IsOddYear": true,
+   },
    "TextOperations": [
 		{
          "Operation": "Append",
@@ -203,6 +206,30 @@
          "Operation": "Append",
          "Target": ["Entries", "MainEvent_additionalCharacters"],
          "Value": "Tabitha 14 26 right/Theo 15 26 left",
+         "Delimiter": "/"
+		},
+	]
+	},
+
+  {
+   "LogName": "TSC: Spirit's Eve Locations with SVE Y2",
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall27",
+   "When": {
+     "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+     "IsOddYear": false,
+   },
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Tabitha 29 18 right/Theo 30 18 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Tabitha 29 18 right/Theo 30 18 left",
          "Delimiter": "/"
 		},
 	]

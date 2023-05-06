@@ -6,42 +6,12 @@
 		"Target": "Data/Locations",
 		"Entries": {
 			// Forage/artifact info same as bus stop
-			"Custom_StrayCatfe_CafeOutdoors": "18 .9 20 .4 22 .7/396 .4 398 .4 402 .7/406 .6 408 .4/414 .33 418 .6 283 .5/-1/-1/-1/-1/584 .08 378 .15 102 .15 390 .25 330 1",
+			// Spring: Green algae, catfish, smallmouth bass
+			// Summer: Green algae, catfish, pike
+			// Fall: Midnight carp, green algae, catfish, walleye, smallmouth bass
+			// Winter: Midnight carp, green algae, walleye, catfish, perch, pike
+			"Custom_StrayCatfe_CafeOutdoors": "18 .9 20 .4 22 .7/396 .4 398 .4 402 .7/406 .6 408 .4/414 .33 418 .6 283 .5/153 -1 143 -1 137 -1/153 -1 143 -1 144 -1/269 -1 153 -1 143 -1 140 -1 137 1/269 -1 153 -1 144 -1 143 -1 141 -1 140 -1/584 .08 378 .15 102 .15 390 .25 330 1",
 		},
-	},
-	{
-		"Action": "EditData",
-		"Target": "Data/Locations",
-		"TextOperations": [
-			//Spring
-			{
-				"Operation": "Prepend",
-				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 4],
-				"Value": "153 -1 143 -1 137 -1", // Green algae, catfish, smallmouth bass
-				"Delimiter": " "
-			},
-			//Summer
-			{
-				"Operation": "Prepend",
-				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 5],
-				"Value": "153 -1 143 -1 144 -1", // Green algae, catfish, pike
-				"Delimiter": " "
-			},
-			//Fall
-			{
-				"Operation": "Prepend",
-				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 6],
-				"Value": "269 -1 153 -1 143 -1 140 -1 137 1", // Midnight carp, green algae, catfish, walleye, smallmouth bass
-				"Delimiter": " "
-			},
-			//Winter
-			{
-				"Operation": "Prepend",
-				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 7],
-				"Value": "269 -1 153 -1 144 -1 143 -1 141 -1 140 -1", // Midnight carp, green algae, walleye, catfish, perch, pike
-				"Delimiter": " "
-			},
-		]
 	},
 	{
 		"Action": "EditData",
@@ -69,6 +39,84 @@
 				"Delimiter": " "
 			},
 		]
-	}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"When": {
+			"HasMod |contains=LemurKat.EastScarpe.JA": true,
+      "HasMod | contains=spacechase0.JsonAssets": true
+		},
+		"Update": "OnTimeChange",
+		"TextOperations": [
+		// ES Fairy Betta
+			//Spring
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 4],
+				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Delimiter": " "
+			},
+			//Summer
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 5],
+				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Delimiter": " "
+			},
+			//Fall
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 6],
+				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Delimiter": " "
+			},
+			//Winter
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 7],
+				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Delimiter": " "
+			},
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"When": {
+			"HasMod |contains=MoreFish": true
+		},
+		"Update": "OnTimeChange",
+		"TextOperations": [
+			//Spring: Goldfish, Kohaku Koi
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 4],
+				"Value": "1146 -1 1122 -1",
+				"Delimiter": " "
+			},
+			//Summer: Goldfish, Sanke Koi
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 5],
+				"Value": "1146 -1 1123 -1",
+				"Delimiter": " "
+			},
+			//Fall: Goldfish, Tancho Koi
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 6],
+				"Value": "1146 -1 1121 -1",
+				"Delimiter": " "
+			},
+			//Winter: Goldfish, Celestial Eye
+			{
+				"Operation": "Prepend",
+				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 7],
+				"Value": "1146 -1 1150 -1",
+				"Delimiter": " "
+			},
+		]
+	},
 ]
 }

@@ -41,6 +41,10 @@
 				"ShowWheelchairBack": false
 			}
 		},
+		{
+			"Name": "IsOddYear",
+			"Value": "{{Query: {{Year}} % 2 = 1}}"
+		},
 	],
 	"CustomLocations": [
 		{
