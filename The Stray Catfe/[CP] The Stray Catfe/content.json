@@ -93,15 +93,25 @@
 			"FromFile": "{{PortraitPath}}/Theo_Beach{{BackValue}}.png",
 		},
 		{
-			"LogName": "TSC: Tabitha Schedule",
+			"LogName": "TSC: Load Tabitha Schedule",
 			"Action": "Load",
 			"Target": "Characters/Schedules/Tabitha",
+			"FromFile": "Assets/Schedules/Blank.json",
+		},
+		{
+			"LogName": "TSC: Load Theo Schedule",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Theo",
+			"FromFile": "Assets/Schedules/Blank.json",
+		},
+		{
+			"LogName": "TSC: Tabitha Schedule",
+			"Action": "Include",
 			"FromFile": "Assets/Schedules/Tabitha.json",
 		},
 		{
 			"LogName": "TSC: Theo Schedule",
-			"Action": "Load",
-			"Target": "Characters/Schedules/Theo",
+			"Action": "Include",
 			"FromFile": "Assets/Schedules/Theo.json",
 		},
 		{

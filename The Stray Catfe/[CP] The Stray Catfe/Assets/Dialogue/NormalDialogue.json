@@ -106,6 +106,7 @@
         "Resort": "{{i18n:Tabitha.Resort}}",
         "Resort_Shore": "{{i18n:Tabitha.Resort_Shore}}",
         "Resort_Leaving": "{{i18n:Tabitha.Resort_Leaving}}",
+        "CommunityCenter_5_6": "{{i18n:Tabitha.CommunityDay}}",
     }
   },
   {
@@ -179,6 +180,7 @@
         "Resort_Entering": "{{i18n:Theo.Resort_Entering}}",
         "Resort": "{{i18n:Theo.Resort}}",
         "Resort_Leaving": "{{i18n:Theo.Resort_Leaving}}",
+        "CommunityCenter_37_9": "{{i18n:Theo.CommunityDay}}",
     }
   }
 ]

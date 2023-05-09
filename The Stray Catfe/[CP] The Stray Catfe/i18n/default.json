@@ -450,13 +450,13 @@
   //"Theo.Resort_Shore": "",
 	//"Theo.Resort_Umbrella": "",
   "Theo.Resort_Leaving": "I was nervous about coming here, but I'm really happy I did. I'll definitely be coming back.$1",
-	
+
 // Movie Dialogue //
    "Tabitha.MovieInvite": "A movie? Sure, I'd love to go! See you there!$h",
    "Tabitha.MovieInvite.spouse": "Of course I'll go to a movie with you, dear! Meet me at the theater, okay? Love you!$h",
    "Theo.MovieInvite": "A movie? Sure, sounds fun. I'll see you there, then.",
    "Theo.MovieInvite.spouse": "A movie? Well, you know I'm always glad to spend time with you, whatever the occasion.$4#$b#I know you're busy with the farm, so I'll just meet you there, okay?$h",
-	
+
    "Tabitha.nature.before": "",
    "Tabitha.nature.during": "",
    "Tabitha.nature.after": "",
@@ -481,7 +481,7 @@
    "Tabitha.sapling.before": "",
    "Tabitha.sapling.during": "",
    "Tabitha.sapling.after": "",
-	
+
    "Theo.nature.before": "I'm really excited for this one. Documentaries are one of my favorite genres.$h",
    "Theo.nature.during": "",
    "Theo.nature.after": "",
@@ -536,4 +536,9 @@
   "Theo.MarriageVows.FemaleFarmer": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Theo in the bonds of marriage.",
   "Theo.MarriageVows.WifeHusband": "@... Theo...#$b#As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
   "Theo.MarriageVows.HusbandHusband": "@... Theo...#$b#As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and..., well, husband!$h",
+
+// Inter-Mod Compat //
+  // SVE Community Day
+  "Tabitha.CommunityDay": "Oh, hi @! I'm helping make a Community Day cake for everyone!$h#$b#Wanna join? We could always use another hand!",
+  "Theo.CommunityDay": "Hey, @. So, um... Are you a fan of... communities?$8#$b#...Sorry, I'm a bit out of my element with all these people around.$2",
 }
