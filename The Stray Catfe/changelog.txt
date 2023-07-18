@@ -1,3 +1,5 @@
 The Stray Catfe - v1.0.3
 - Fixed bad formatting in Data/Locations
 - Added more potential fish when using East Scarp or More New Fish
+- Added vanilla-style shop portrait
+- Hopefully fixed Theo spouse room issue

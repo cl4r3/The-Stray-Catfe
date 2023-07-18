@@ -22,7 +22,7 @@
   		"Target": "Characters/Schedules/Tabitha",
       "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP", "HasSeenEvent |contains=191393": true, "HasSeenEvent |contains=3900074": true },
   		"Entries": {
-          "22": "610 Custom_StrayCatfe_CafeIndoors 16 13 0/800 CommunityCenter 6 5 0/1800 Custom_StrayCatfe_CafeIndoors 16 13 0 \"Strings\\schedules\\Tabitha:spring.000\"/1930 Custom_StrayCatfe_CafeIndoors 13 8 3/2000 Custom_StrayCatfe_CafeIndoors 15 6 2 tabitha_sleep",
+          "22": "610 Custom_StrayCatfe_CafeIndoors 16 13 0/800 CommunityCenter 15 5 0/1300 CommunityCenter 6 5 0/1700 CommunityCenter 15 5 0/1800 Custom_StrayCatfe_CafeIndoors 16 13 0 \"Strings\\schedules\\Tabitha:spring.000\"/1930 Custom_StrayCatfe_CafeIndoors 13 8 3/2000 Custom_StrayCatfe_CafeIndoors 15 6 2 tabitha_sleep",
       }
     },
   ]
