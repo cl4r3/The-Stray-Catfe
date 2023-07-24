@@ -54,28 +54,28 @@
 			{
 				"Operation": "Prepend",
 				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 4],
-				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Value": "{{spacechase0.JsonAssets/ObjectId:Fairy Betta}} -1",
 				"Delimiter": " "
 			},
 			//Summer
 			{
 				"Operation": "Prepend",
 				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 5],
-				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Value": "{{spacechase0.JsonAssets/ObjectId:Fairy Betta}} -1",
 				"Delimiter": " "
 			},
 			//Fall
 			{
 				"Operation": "Prepend",
 				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 6],
-				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Value": "{{spacechase0.JsonAssets/ObjectId:Fairy Betta}} -1",
 				"Delimiter": " "
 			},
 			//Winter
 			{
 				"Operation": "Prepend",
 				"Target": ["Fields", "Custom_StrayCatfe_CafeOutdoors", 7],
-				"Value": "{{LemurKat.EastScarpe.JA/ObjectId:Fairy Betta}} -1",
+				"Value": "{{spacechase0.JsonAssets/ObjectId:Fairy Betta}} -1",
 				"Delimiter": " "
 			},
 		]

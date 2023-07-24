@@ -20,5 +20,10 @@
    "Target": "Maps/winter_zStrayCatfe",
    "FromFile": "Assets/Maps/{{TargetWithoutPath}}.png"
 },
+{
+   "Action": "Load",
+   "Target": "Maps/sproomsts",
+   "FromFile": "Assets/Maps/{{TargetWithoutPath}}.png"
+},
 ]
 }
