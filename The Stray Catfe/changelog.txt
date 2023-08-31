@@ -1,5 +1,9 @@
-The Stray Catfe - v1.0.3
+The Stray Catfe - v1.1.0
+- Added one new JA item to game
+- Added custom companions
+- 14 heart events for both characters
+- New sprites and animations for both characters
+- Updated shop menu
 - Fixed bad formatting in Data/Locations
 - Added more potential fish when using East Scarp or More New Fish
-- Added vanilla-style shop portrait
-- Fixed Theo spouse room issue
+- Fixed Theo spouse room bug

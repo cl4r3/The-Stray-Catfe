@@ -22,7 +22,7 @@
 },
 {
    "Action": "Load",
-   "Target": "Maps/sproomsts",
+   "Target": "Maps/z_sproomsts",
    "FromFile": "Assets/Maps/{{TargetWithoutPath}}.png"
 },
 ]

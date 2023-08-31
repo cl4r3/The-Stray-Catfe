@@ -1,0 +1,18 @@
+﻿{
+    "Name": "[CC] The Stray Catfe - Update",
+    "Author": "Sierra Schedin (aka alistairweekend) and ch20youk (aka moetrash) and Airyn",
+    "Version": "1.1.0",
+    "Description": "Custom companions for The Stray Catfe.",
+    "UniqueID": "ch20youk.TSCCC",
+    "MinimumApiVersion": "3.14",
+    "UpdateKeys": ["Nexus:-1"],
+    "ContentPackFor":
+    {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "1.5.0"
+    },
+    "Dependencies": [
+    {
+      "UniqueID": "ch20youk.TSCCP"
+    }
+}

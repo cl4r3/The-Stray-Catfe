@@ -178,7 +178,7 @@
   </tile>
  </tileset>
  <tileset firstgid="2177" name="zSpouseRoom" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="sproomsts" width="400" height="1264"/>
+  <image source="z_sproomsts" width="400" height="1264"/>
   <tile id="308">
    <animation>
     <frame tileid="300" duration="250"/>

@@ -1,0 +1,14 @@
+{
+	"Name": "[JA] The Stray Catfe Update",
+  "Author": "Sierra Schedin (aka alistairweekend) and ch20youk (aka moetrash) and Airyn",
+	"Version": "1.1.0",
+	"Description": "Adds new objects for The Stray Catfe",
+	"UniqueID": "ch20youk.TSCJA",
+	"MinimumApiVersion": "3.14",
+	"UpdateKeys": ["Nexus:-1"],
+	"ContentPackFor":
+		{ "UniqueID": "spacechase0.JsonAssets" },
+	"Dependencies": [
+    { "UniqueID": "ch20youk.TSCCP" }
+  ]
+}

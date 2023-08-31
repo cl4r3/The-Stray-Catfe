@@ -1,7 +1,7 @@
 {
-  "Name": "The Stray Catfe Update by ch20youk - STF",
-  "Author": "Sierra Schedin (aka alistairweekend) and ch20youk (aka moetrash)",
-  "Version": "1.0.3",
+  "Name": "[STF] The Stray Catfe Update",
+  "Author": "Sierra Schedin (aka alistairweekend) and ch20youk (aka moetrash) and Airyn",
+  "Version": "1.1.0",
   "Description": "Shop functionality for The Stray Catfe.",
   "UniqueID": "ch20youk.TSCSTF",
   "MinimumApiVersion": "3.14",

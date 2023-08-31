@@ -1,171 +1,381 @@
 {
-	"Shops": [
-	{
-	  "ShopName": "StrayCatfe",
-	  //"PortraitPath": "assets/Tabitha.png",
-	  "Quote": "Hiya, welcome! What can I get you?",
-	  "ItemStocks": [
+	"Shops": 
+	[
 		{
-			//Coffee
-			"ItemType": "Object",
-			"StockPrice": 215,
-			"ItemIDs": [
-				395,
-			],
+		"ShopName": "StrayCatfe",
+		"PortraitPath": "assets/logo.png",
+		"Quote": "Hiya, welcome! What can I get you?",
+		"ItemStocks": [
+			// All Day Drinks
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Coffee" ],
+				"StockPrice": 215
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Green Tea" ],
+				"StockPrice": 180
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Juice" ],
+				"StockPrice": 150,
+				"MaxNumItemsSoldInItemStock": 1,
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Triple Shot Espresso" ],
+				"StockPrice": 800,
+				"Stock": 10,
+				"When": [ "d Sat Sun" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Cranberry Candy" ],
+				"StockPrice": 250,
+				"Stock": 10,
+				"When": [ "!d Sat Sun" ]
+			},
+			// Baked Goods
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Bread" ],
+				"StockPrice": 100
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Cookie", "Chocolate Cake", "Pink Cake" ],
+				"StockPrice": 220,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Rice Pudding", "Rhubarb Pie", "Blueberry Tart" ],
+				"StockPrice": 220,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Plum Pudding", "Pumpkin Pie", "Blackberry Cobbler" ],
+				"StockPrice": 600,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Poppyseed Muffin", "Maple Bar", "Banana Pudding" ],
+				"StockPrice": 700,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Strange Bun" ],
+				"StockPrice": 200,
+				"When": [ "r 0.1" ],
+				"Stock": 5
+			},
+			// Breakfast Menu
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Pancakes", "Hashbrowns", "Omelet", "Fried Egg" ],
+				"StockPrice": 180,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Complete Breakfast", "Fruit Salad" ],
+				"StockPrice": 600,
+				"Stock": 5,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			// Lunch Menu
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Roots Platter", "Salad", "Farmer's Lunch" ],
+				"StockPrice": 200,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Glazed Yams", "Pepper Poppers", "Bruschetta", "Lucky Lunch" ],
+				"StockPrice": 310,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Crab Cakes", "Radish Salad", "Stir Fry", "Coleslaw", "Fiddlehead Risotto", "Red Plate"],
+				"StockPrice": 450,
+				"MaxNumItemsSoldInItemStock": 1
+			},
+			////// WILDFLOUR GOODS COMPATIBILITY //////
+			// Beverages
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf fruitpunch", "wf orangejuice", "wf applejuice", "wf grapejuice", "wf berryjuice", "wf tropicaljuice", "wf mixjuice", "wf carrotjuice" ],
+				"StockPrice": 200,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierjuicebar", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf icedtea", "wf peach icedtea", "wf mango icedtea", "wf green icedtea", "wf thai icedtea" ],
+				"StockPrice": 220,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierjuicebar", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf pink lemonade", "wf raspberry lemonade", "wf greentea lemonade", "wf lavender lemonade", "wf chamomile lemonade", "wf jasmine lemonade", "wf rose lemonade", "wf lime lemonade", "wf cherry limeade", "wf classic lemonade", "wf mint lemonade", "wf melon lemonade", "wf blackberry lemonade" ],
+				"StockPrice": 300,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierjuicebar", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf berrybanana smoothie", "wf peachmango smoothie", "wf berry smoothie", "wf tropical smoothie", "wf berrykale smoothie", "wf chocoberry smoothie", "wf sunshine smoothie" ],
+				"StockPrice": 300,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierjuicebar", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf banana boba", "wf blacktea boba", "wf blueberry boba", "wf brownsugar boba", "wf caramel boba", "wf coconut boba", "wf jasmine boba", "wf mango boba", "wf matcha boba", "wf melon boba", "wf oolong boba", "wf peach boba", "wf rose boba", "wf strawberry boba", "wf taro boba", "wf thai boba", "wf vanilla boba", "wf fruity boba" ],
+				"StockPrice": 350,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierjuicebar", "HasMod wildflour.megapack" ]
+			},
+			// Tea Pack
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf apple tea", "wf vanilla tea", "wf cinnamon tea", "wf chamomile tea", "wf breakfast tea", "wf jasmine tea", "wf ginger tea", "wf grey tea", "wf lemon tea", "wf matcha tea", "wf mint tea", "wf berry tea", "wf peach tea", "wf pineapple tea", "wf pomegranate tea", "wf raspberry tea", "wf rose tea", "wf sakura tea", "wf strawberry tea" ],
+				"StockPrice": 250,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierteas", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf apple kombucha", "wf vanilla kombucha", "wf cinnamon kombucha", "wf chamomile kombucha", "wf breakfast kombucha", "wf jasmine kombucha", "wf ginger kombucha", "wf grey kombucha", "wf lemon kombucha", "wf matcha kombucha", "wf mint kombucha", "wf berry kombucha", "wf peach kombucha", "wf pineapple kombucha", "wf pomegranate kombucha", "wf raspberry kombucha", "wf rose kombucha", "wf sakura kombucha", "wf strawberry kombucha" ],
+				"StockPrice": 250,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierteas", "HasMod wildflour.megapack" ]
+			},
+			// Coffee Pack
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf breakfast latte", "wf cold brew" ],
+				"StockPrice": 280,
+				"When": [ "HasMod wildflour.ateliercoffee", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf vanilla latte", "wf sweetheart latte" ],
+				"StockPrice": 300,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.ateliercoffee/!z spring", "HasMod wildflour.megapack/!z spring" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf donut latte", "wf coconut latte" ],
+				"StockPrice": 300,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.ateliercoffee/!z summer", "HasMod wildflour.megapack/!z summer" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf pumpkin latte", "wf hazelnut latte" ],
+				"StockPrice": 300,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.ateliercoffee/!z fall", "HasMod wildflour.megapack/!z fall" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf holiday latte", "wf mocha latte" ],
+				"StockPrice": 300,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.ateliercoffee/!z winter", "HasMod wildflour.megapack/!z winter" ]
+			},
+			// Gourmet Bakery
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf wheat bread", "wf white bread", "wf cranberry bread", "wf olive bread", "wf potato bread", "wf pumpernickel bread" ],
+				"StockPrice": 900,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf nutbutter brownie", "wf mint brownie", "wf fudgy brownie", "wf creamcheese brownie" ],
+				"StockPrice": 2100,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf cinnamon roll", "wf pretzel" ],
+				"StockPrice": 700,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf summer tart", "wf raspberry tart", "wf colada tart", "wf mintmocha tart", "wf mixfruit tart", "wf mixberry tart", "wf mango tart", "wf lemon tart", "wf chocohazelnut tart", "wf blueberry tart" ],
+				"StockPrice": 950,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Tue", "HasMod wildflour.megapack/!d Tue" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf rhubarb muffin", "wf pumpkin muffin", "wf lemonberry muffin", "wf cornbread muffin", "wf cinnamon muffin", "wf banana muffin", "wf apple muffin" ],
+				"StockPrice": 1550,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Tue", "HasMod wildflour.megapack/!d Tue" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf raspberry petitfour", "wf tropical petitfour", "wf tresleches petitfour", "wf tiramisu petitfour", "wf strawberry petitfour", "wf pistachio petitfour", "wf peach petitfour", "wf matcha petitfour", "wf lemon petitfour", "wf chocohazelnut petitfour", "wf almond petitfour" ],
+				"StockPrice": 1550,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Wed", "HasMod wildflour.megapack/!d Wed" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf vanilla jelly doughnut", "wf vanilla doughnut", "wf strawberry doughnut", "wf strawberry cream doughnut", "wf choco cream doughnut", "wf chocolate doughnut" ],
+				"StockPrice": 1440,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Wed", "HasMod wildflour.megapack/!d Wed" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf sweetpotato pie", "wf pumpkin pie", "wf plum pie", "wf lime pie", "wf peach pie", "wf lemon pie", "wf cherry pie", "wf blueberry pie", "wf banana pie", "wf apple pie" ],
+				"StockPrice": 1800,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Thu", "HasMod wildflour.megapack/!d Thu" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf strawberry macaron", "wf sakura macaron", "wf raspberry macaron", "wf pistachio macaron", "wf mint macaron", "wf lime macaron", "wf lemon macaron", "wf lavender macaron", "wf chocohazelnut macaron", "wf almond macaron" ],
+				"StockPrice": 1550,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Thu", "HasMod wildflour.megapack/!d Thu" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf tropical pudding", "wf tiramisu pudding", "wf sakura pudding", "wf pumpkin pudding", "wf peach pudding", "wf lemon pudding", "wf cremebrulee pudding", "wf cookie pudding", "wf chocolate pudding", "wf banana pudding" ],
+				"StockPrice": 2150,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Fri", "HasMod wildflour.megapack/!d Fri" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf strawberry scone", "wf raspberry scone", "wf pumpkin scone", "wf pistachio scone", "wf peach scone", "wf cinnamon scone", "wf blueberry scone", "wf blackberry scone" ],
+				"StockPrice": 1480,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Fri", "HasMod wildflour.megapack/!d Fri" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf strawberry cake", "wf redvelvet cake", "wf pumpkin cake", "wf hummingbird cake", "wf peach cake", "wf lemon cake", "wf gingerbread cake", "wf confetti cake", "wf coconut cake", "wf chocolate cake", "wf carrot cake" ],
+				"StockPrice": 2150,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Sat", "HasMod wildflour.megapack/!d Sat" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf strawberryjam cookie", "wf orangejam cookie", "wf chococookie sandwich", "wf cherryjam cookie", "wf vanilla sandwich cookie", "wf chocochip cookie" ],
+				"StockPrice": 950,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Sat", "HasMod wildflour.megapack/!d Sat" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf white cheesecake", "wf strawberry cheesecake", "wf raspberry cheesecake", "wf pumpkin cheesecake", "wf orange cheesecake", "wf mocha cheesecake", "wf mango cheesecake", "wf lemon cheesecake", "wf cookie cheesecake", "wf classic cheesecake", "wf cherry cheesecake", "wf blueberry cheesecake" ],
+				"StockPrice": 1850,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Sun", "HasMod wildflour.megapack/!d Sun" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf vanilla eclair", "wf strawberry eclair", "wf raspberry eclair", "wf pistachio eclair", "wf mocha eclair", "wf maple eclair", "wf chocolate eclair" ],
+				"StockPrice": 1350,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.bakery/!d Sun", "HasMod wildflour.megapack/!d Sun" ]
+			},
+			// Chilly Treats
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf soda float" ],
+				"StockPrice": 500,
+				"When": [ "HasMod wildflour.atelierfrozen", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf caramel sundae" ],
+				"StockPrice": 500,
+				"When": [ "HasMod wildflour.atelierfrozen/!z spring", "HasMod wildflour.megapack/!z spring" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf banana sundae" ],
+				"StockPrice": 500,
+				"When": [ "HasMod wildflour.atelierfrozen/!z summer", "HasMod wildflour.megapack/!z summer" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf smores sundae" ],
+				"StockPrice": 500,
+				"When": [ "HasMod wildflour.atelierfrozen/!z fall", "HasMod wildflour.megapack/!z fall" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf fudge sundae" ],
+				"StockPrice": 500,
+				"When": [ "HasMod wildflour.atelierfrozen/!z winter", "HasMod wildflour.megapack/!z winter" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf vanilla milkshake", "wf strawberry milkshake", "wf pumpkin milkshake", "wf colada milkshake", "wf lime milkshake", "wf earlgrey milkshake", "wf orange milkshake", "wf candy milkshake", "wf choco milkshake" ],
+				"StockPrice": 600,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierfrozen", "HasMod wildflour.megapack" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf vanilla cone", "wf strawberry cone", "wf mint cone", "wf chocolate cone" ],
+				"StockPrice": 550,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierfrozen/z summer", "HasMod wildflour.megapack/z summer" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf vanilla icecreamwich", "wf strawberry icecreamwich", "wf pistachio icecreamwich", "wf mocha icecreamwich", "wf mochanut icecreamwich", "wf mint icecreamwich", "wf cinnamon icecreamwich" ],
+				"StockPrice": 650,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierfrozen/!z summer", "HasMod wildflour.megapack/!z summer" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf vanilla cone", "wf strawberry cone", "wf pistachio cone", "wf mint cone", "wf maple cone", "wf lavender cone", "wf horchata cone", "wf cookie cone", "wf cookiedough cone", "wf coffee cone", "wf coconut cone", "wf cookiedough cone", "wf chocolate cone", "wf cherryblossom cone", "wf cherrynut cone", "wf apple cone" ],
+				"StockPrice": 600,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierfrozen/!z summer/d Wed/d Fri/d Sun", "HasMod wildflour.megapack/!z summer/d Wed/d Fri/d Sun" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf wildberry froyo", "wf taro froyo", "wf pumpkin froyo", "wf mintchoco froyo", "wf fruity froyo", "wf choco froyo", "wf cherrychoco froyo", "wf cheesecake froyo", "wf blueberry froyo", "wf cake froyo", "wf starfruit froyo", "wf orange froyo", "wf melon froyo", "wf mango froyo", "wf lemon froyo" ],
+				"StockPrice": 600,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierfrozen/!z summer/d Tue/d Thu/d Sat", "HasMod wildflour.megapack/!z summer/d Tue/d Thu/d Sat" ]
+			},
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "wf wildberry popsicle", "wf raspberry popsicle", "wf starfruit popsicle", "wf pineapple popsicle", "wf peach popsicle", "wf orange popsicle", "wf melon popsicle", "wf mango popsicle", "wf lime popsicle", "wf lemon popsicle", "wf grape popsicle", "wf fruity popsicle", "wf coconut popsicle", "wf cherry popsicle", "wf blueberry popsicle" ],
+				"StockPrice": 450,
+				"MaxNumItemsSoldInItemStock": 1,
+				"When": [ "HasMod wildflour.atelierfrozen/!z summer", "HasMod wildflour.megapack/!z summer" ]
+			},
+		],
+		"When": ["NPCAt Tabitha 14 13"],
+		"ClosedMessage": "The cafe is closed right now..."
 		},
-		{
-			//Triple Shot Espresso
-			"ItemType": "Object",
-			"StockPrice": 800,
-			"ItemIDs": [
-				253,
-			],
-			"Stock": 10,
-		},
-		{
-			//Green Tea
-			"ItemType": "Object",
-			"StockPrice": 180,
-			"ItemNames": [
-				"Green Tea",
-			],
-		},
-		{
-			//Complete Breakfast
-			"ItemType": "Object",
-			"StockPrice": 600,
-			"ItemIDs": [
-				201,
-			],
-			"Stock": 5,
-		},
-		{
-			//Omelet
-			"ItemType": "Object",
-			"StockPrice": 200,
-			"ItemIDs": [
-				195,
-			],
-		},
-		{
-			//Pancakes
-			"ItemType": "Object",
-			"StockPrice": 120,
-			"ItemIDs": [
-				211,
-			],
-		},
-		{
-			//Cookie
-			"ItemType": "Object",
-			"StockPrice": 200,
-			"ItemIDs": [
-				223,
-			],
-			"Stock": 12,
-		},
-		{
-			//Poppyseed Muffin
-			"ItemType": "Object",
-			"StockPrice": 350,
-			"ItemIDs": [
-				651,
-			],
-			"Stock": 12,
-		},
-		{
-			//Maple Bar
-			"ItemType": "Object",
-			"StockPrice": 450,
-			"ItemIDs": [
-				731,
-			],
-			"Stock": 12,
-		},
-		{
-			//Plum Pudding
-			"ItemType": "Object",
-			"StockPrice": 520,
-			"ItemIDs": [
-				604,
-			],
-			"Stock": 5,
-		},
-		{
-			//Rice Pudding
-			"ItemType": "Object",
-			"StockPrice": 400,
-			"ItemIDs": [
-				232,
-			],
-			"Stock": 5,
-		},
-		{
-			//Pumpkin Pie
-			"ItemType": "Object",
-			"StockPrice": 770,
-			"ItemIDs": [
-				608,
-			],
-			"Stock": 3,
-		},
-		{
-			//Rhubarb Pie
-			"ItemType": "Object",
-			"StockPrice": 600,
-			"ItemIDs": [
-				222,
-			],
-			"Stock": 3,
-		},
-		{
-			//Blueberry Tart
-			"ItemType": "Object",
-			"StockPrice": 225,
-			"ItemIDs": [
-				234,
-			],
-			"Stock": 5,
-		},
-		{
-			//Blackberry Cobbler
-			"ItemType": "Object",
-			"StockPrice": 520,
-			"ItemIDs": [
-				611,
-			],
-			"Stock": 5,
-		},
-		{
-			//Chocolate Cake
-			"ItemType": "Object",
-			"StockPrice": 300,
-			"ItemIDs": [
-				220,
-			],
-			"Stock": 3,
-		},
-		{
-			//Pink Cake
-			"ItemType": "Object",
-			"StockPrice": 700,
-			"ItemIDs": [
-				221,
-			],
-			"Stock": 3,
-		},
-		{
-			//Strange Bun
-			"ItemType": "Object",
-			"StockPrice": 325,
-			"ItemIDs": [
-				203,
-			],
-			"Stock": 1,
-		},
-	  ],
-	  "When": ["NPCAt Tabitha 14 13"],
-	  "ClosedMessage": "The cafe is closed right now...",
-	}
-	],
+	]
 }
