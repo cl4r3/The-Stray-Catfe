@@ -1,0 +1,23 @@
+{
+"Changes": [
+  {
+		"Action": "EditData",
+		"Target": "Data/ObjectInformation",
+		"TextOperations": [
+      {
+        "Operation": "Prepend",
+    		"Target": ["Fields", "{{spacechase0.JsonAssets/ObjectId:Meow Feuille}}", 3],
+    		"Value": "Cooking -7",
+    		"Delimiter": " "
+      },
+    ]
+  },
+  {
+		"Action": "EditData",
+		"Target": "Data/CookingRecipes",
+		"Entries": {
+      "Meow Feuille": "246 1 245 1 -6 1 -5 2/6 5/{{spacechase0.JsonAssets/ObjectId:Meow Feuille}}/none",
+    },
+  },
+]
+}

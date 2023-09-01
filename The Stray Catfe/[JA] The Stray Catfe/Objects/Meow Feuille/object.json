@@ -1,7 +1,6 @@
 {
-	"Name": "TSC.meow-feuille",
+	"Name": "Meow Feuille",
 	"TranslationKey": "objects.meow-feuille",
-	"Category": "Cooking",
 	"Edibility": 50,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": {

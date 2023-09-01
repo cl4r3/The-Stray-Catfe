@@ -169,5 +169,10 @@
 			"Action": "Include",
 			"FromFile": "Data/MapData/FishData.json",
 		},
+		{
+			"LogName": "TSC: Include Dynamic Changes",
+			"Action": "Include",
+			"FromFile": "Data/DynamicChanges/ObjectChanges.json",
+		},
 	]
 }

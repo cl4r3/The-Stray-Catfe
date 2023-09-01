@@ -16,7 +16,7 @@
     },
     {
       "UniqueID": "spacechase0.JsonAssets",
-      "IsRequired": false,
+      "IsRequired": true,
     },
     {
       "UniqueID": "Rafseazz.RSVCP",
