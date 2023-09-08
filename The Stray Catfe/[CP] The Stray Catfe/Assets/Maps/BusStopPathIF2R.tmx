@@ -13,8 +13,8 @@
  <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>
  </tileset>
- <tileset firstgid="2012" name="spring_zStrayCatfe" tilewidth="16" tileheight="16" tilecount="80" columns="8">
-  <image source="spring_zStrayCatfe.png" width="128" height="160"/>
+ <tileset firstgid="2021" name="spring_zStrayCatfe" tilewidth="16" tileheight="16" tilecount="589" columns="19">
+  <image source="spring_zStrayCatfe.png" width="304" height="496"/>
  </tileset>
  <layer id="1" name="Back" width="7" height="6">
   <data encoding="csv">
@@ -29,7 +29,7 @@
  <layer id="2" name="Buildings" width="7" height="6">
   <data encoding="csv">
 0,0,0,0,0,0,0,
-0,2020,0,0,0,0,0,
+0,2040,0,0,0,0,0,
 386,362,0,0,0,362,384,
 0,387,0,0,0,412,0,
 0,412,0,0,0,387,0,
@@ -38,7 +38,7 @@
  </layer>
  <layer id="3" name="Front" width="7" height="6">
   <data encoding="csv">
-0,2012,0,0,0,0,0,
+0,2021,0,0,0,0,0,
 361,0,0,0,0,0,359,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,

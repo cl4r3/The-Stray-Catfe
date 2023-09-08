@@ -1287,8 +1287,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4316" name="spring_zStrayCatfe" tilewidth="16" tileheight="16" tilecount="80" columns="8">
-  <image source="spring_zStrayCatfe.png" width="128" height="160"/>
+ <tileset firstgid="4316" name="spring_zStrayCatfe" tilewidth="16" tileheight="16" tilecount="589" columns="19">
+  <image source="spring_zStrayCatfe.png" width="304" height="496"/>
  </tileset>
  <layer id="1" name="Back" width="6" height="6">
   <data encoding="base64" compression="zlib">
@@ -1298,7 +1298,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="6" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYMANngjgkaQQ1OEQAwB82AHx
+   eJxjYMAN3gvgkaQQ1OEQAwCB1AH8
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
