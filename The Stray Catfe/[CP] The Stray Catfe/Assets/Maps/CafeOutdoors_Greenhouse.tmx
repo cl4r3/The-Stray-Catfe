@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="11">
- <properties>
-  <property name="DayTiles" value="Front 14 10 907"/>
-  <property name="Fall_Objects" value="406 .6 408 .4 410 .6"/>
-  <property name="NightTiles" value="Front 14 10 908"/>
-  <property name="Outdoors" value="T"/>
-  <property name="Spring_Objects" value="18 .9 20 .4 22 .7"/>
-  <property name="Summer_Objects" value="396 .4 398 .4 402 .7"/>
-  <property name="Winter_Objects" value="414 .1 418 .3"/>
- </properties>
  <tileset firstgid="1" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
