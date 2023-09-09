@@ -54,6 +54,10 @@
 		{
 			"Name": "Custom_StrayCatfe_CafeOutdoors",
 			"FromMapFile": "Assets/Maps/CafeOutdoors.tmx"
+		},
+		{
+			"Name": "Custom_StrayCatfe_TheoGreenhouse",
+			"FromMapFile": "Assets/Maps/TheoGreenhouse.tmx"
 		}
 	],
 	"Changes": [
@@ -172,7 +176,7 @@
 		{
 			"LogName": "TSC: Include Dynamic Changes",
 			"Action": "Include",
-			"FromFile": "Data/DynamicChanges/ObjectChanges.json",
+			"FromFile": "Data/DynamicChanges/ObjectChanges.json, Data/DynamicChanges/MapChanges.json",
 		},
 	]
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="11">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="11">
  <tileset firstgid="1" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
@@ -1600,14 +1600,30 @@
 4385,4386,4387,4388,4389,4390,4391,
 4404,4405,4406,4407,4408,4409,4410,
 4423,4424,4425,4426,4427,4428,4429,
-0,4462,4463,4445,4465,4466,2671,
+0,4462,4463,0,4465,4466,2671,
 4456,4481,4482,0,4484,4485,2721,
 4475,4500,4501,0,4503,4504,2696,
 4515,4519,4520,0,4522,4523,2721,
 3428,3403,0,0,0,88,2721
 </data>
  </layer>
+ <layer id="11" name="Buildings2" width="7" height="11">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,4498,0,4496,0,0,
+0,4516,4517,0,4515,4516,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
  <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="12" name="Buildings2"/>
  <layer id="5" name="Paths" width="7" height="11">
   <data encoding="csv">
 0,0,0,0,0,0,0,
@@ -1632,10 +1648,10 @@
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,2346,
 0,4443,4444,0,4446,4447,2371,
-0,0,0,0,0,0,2396,
+0,0,0,4445,0,0,2396,
 0,0,0,0,0,0,0,
-0,0,4498,0,4496,0,0,
-4494,4516,4517,0,4515,4516,0,
+0,0,0,0,0,0,0,
+4494,0,0,0,0,0,0,
 0,0,0,0,0,0,0
 </data>
  </layer>

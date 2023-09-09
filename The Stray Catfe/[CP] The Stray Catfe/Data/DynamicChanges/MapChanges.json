@@ -1,0 +1,33 @@
+{
+"Changes": [
+  // Theo 14 heart event
+  {
+		"LogName": "TSC: Theo's Greenhouse Exterior",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
+		"FromFile": "Assets/Maps/CafeOutdoors_Greenhouse.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 11 },
+		"ToArea": { "X": 26, "Y": 2, "Width": 7, "Height": 11 },
+		"PatchMode": "Replace",
+    // "When": { }
+	},
+  {
+    "LogName": "TSC: Theo's Greenhouse Exterior Warps",
+    "Action": "EditMap",
+    "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
+    "AddWarps": [
+      "29 7 Custom_StrayCatfe_TheoGreenhouse 11 15",
+    ],
+    // "When": { }
+  },
+  {
+    "LogName": "TSC: Theo's Greenhouse Interior Warps",
+    "Action": "EditMap",
+    "Target": "Maps/Custom_StrayCatfe_TheoGreenhouse",
+    "AddWarps": [
+      "11 16 Custom_StrayCatfe_CafeOutdoors 29 8",
+    ],
+    // "When": { }
+  },
+]
+}

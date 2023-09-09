@@ -72,5 +72,9 @@
       "727/f Theo 2000/w sunny/z winter":"none/19 62/farmer 17 55 2 Theo 18 59 2/skippable/pause 1000/move farmer 0 4 1 true/emote Theo 56/pause 400/faceDirection Theo 3/pause 200/speak Theo \"{{i18n:Theo.Event8.0}}\"/pause 300/faceDirection farmer 2/faceDirection Theo 2/pause 100/emote farmer 56/emote Theo 56/pause 500/speak Theo \"{{i18n:Theo.Event8.1}}\"/pause 1000/speak Theo \"$q 645 null#{{i18n:Theo.Event8.2}}#$r 645 50 event_garden1#{{i18n:Theo.Event8.3}}#$r 645 20 event_garden2#{{i18n:Theo.Event8.4}}#$r 645 10 event_garden3#{{i18n:Theo.Event8.5}}\"/pause 400/speak Theo \"{{i18n:Theo.Event8.6}}\"/pause 1000/globalFade/viewport -1000 -1000/end"
     }
   }
+  // 778: Theo 14 heart pt 1
+  // 779: Theo 14 heart pt 2
+  // 278: Tabby 14 heart pt 1
+  // 279: Tabby 14 heart pt 2
 ]
 }
